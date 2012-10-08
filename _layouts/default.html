@@ -1,50 +1,33 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+<!doctype html>
+<!--[if lt IE 8]><html class="lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="{{site.baseurl}}/style.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="ie.css">
+	<![endif]-->
+</head>
+<body>
 
-<html>
-	<head>
-		<title>{% if page.title %} {{ page.title }} | {% endif %} My Page</title>
-        <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
-        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
-	</head>
-
-	<body>
-		<div id="header">
-			<h1>Welcome to my page</h1>
-			<h4>Here is some tagline</h4>
-			<hr />
-		</div>
-
-		<div id="sidebar">
-
-			<h3>First Heading</h3>
-
-			<ul>
-                <li><a href="{{site.baseurl}}/">Home</a></li>
-                <li><a href="{{site.baseurl}}/archive">Archive</a></li>
-                <li><a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
-			</ul>
-
-			<h3>Second Heading</h3>
-
-			<ul>
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
-			</ul>
-		</div>
-
-		<div id="content">
-
+	<div class="strip">
+    <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+    <ul class="nav">
+      {% assign pages_list = site.pages %}
+      {% assign group = 'navigation' %}
+      {% include JB/pages_list %}
+    </ul>
+  </div>
+	
+	<div class="container">
+	
 			{{ content }}
+			
+	</div>
 
-		</div>
-
-		<div id="footer">
-			<hr />
-			<p>&copy; 2012 Luke Maciak</p>
-		</div>
-
-	</body>
-
+</body>
 </html>

@@ -1,82 +1,144 @@
+/*
+Author  : Boon
+URL     : http://builtbyboon.com
+Twitter	: http://twitter.com/mattberridge
+---------------------------------------*/
 body {
-  font-size: 12px;
-  font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
-  color:#564b47;  
-  padding-left: 50px;
-  padding-right: 20%;
-}
+  margin: 0;
+  font: 1em/1.5 sans-serif; }
 
-pre {
-    background-color: #E8E8E8;
-    margin-left: 30px;
-    padding: 5px;
-    width: 80%;
-}
+.strip {
+  background: #891434;
+  color: #fff;
+  padding: 1em 5%; }
+  .strip p {
+    text-align: left;
+    font-size: 1.2em; }
 
-code {
-    background-color: #E8E8E8;
-    padding-left: 3px;
-    padding-right: 3px;
-}
+.container {
+  width: 90%;
+  margin: 2em auto; }
 
-pre {
-    background-color: #E8E8E8;
-    margin-left: 30px;
-    padding: 5px;
-    width: 80%;
-}
+p {
+  text-align: justify;
+  margin: 0 0 1.5em 0; }
 
-table {
-    border: none;
-}
+a {
+  color: #fff; }
 
-td {
-    padding-left: 20px;
-}
+h2 {
+  margin-top: 0; }
 
+/* -- Begin grids
+------------------------------------------------------------- */
+/* -- Use this wrapper if you want to divide your columns -- */
+.divide-bottom {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5em; }
 
-#content {
+/* -- Use this wrapper if you want to block-out a column with padding 
+Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
+.island {
+  padding: 1.5em;
+  background-color: #ececec; }
+  .island :last-child {
+    margin-bottom: 0; }
 
-	width: 65%;
-	min-width: 600px;
-	margin-left: 200px;
-}
+/* -- Set up your grids -- */
+.grid-wrap {
+  margin-left: -3em;
+  overflow: hidden;
+  clear: both; }
 
-#sidebar {
-	float: left;
-	width: 200px;
-	min-width: 200px;
-}
+.grid-col {
+  float: left;
+  padding-left: 3em;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-#sidebar a:visited,
-#sidebar a:active {
-    color: blue;
-}
+.half-gutter {
+  margin-left: -1.5em; }
+  .half-gutter .grid-col {
+    padding-left: 1.5em; }
 
-#sidebar a:hover {
-    color: blue;
-}
+/* -- If you want any columns to begin with -- */
+.col-full {
+  width: 100%; }
 
-#footer {
-	clear: both;
-	width: 100%;
-}
+.col-one-half {
+  width: 50%; }
 
-.post {
-	margin: 10px;
-}
+.col-one-third {
+  width: 33.333%; }
 
-.entry {
-	margin-left: 10px;
-	padding: 10px;
-}
+.col-two-thirds {
+  width: 66.666%; }
 
-.entry img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+.col-one-quarter {
+  width: 25%; }
 
-.meta {
-	padding-top: 10px;
-}
+.col-three-quarters {
+  width: 75%; }
+
+/* -- Breakpoint (.bp1)
+------------------------------------------------------------- */
+@media only screen and (min-width: 30em) {
+  .bp1-col-full {
+    width: 100%; }
+
+  .bp1-col-one-half {
+    width: 50%; }
+
+  .bp1-col-one-third {
+    width: 33.333%; }
+
+  .bp1-col-two-thirds {
+    width: 66.666%; }
+
+  .bp1-col-one-quarter {
+    width: 25%; }
+
+  .bp1-col-three-quarters {
+    width: 75%; } }
+/* -- Breakpoint 2 (.bp2)
+------------------------------------------------------------- */
+@media only screen and (min-width: 48em) {
+  .bp2-col-full {
+    width: 100%; }
+
+  .bp2-col-one-half {
+    width: 50%; }
+
+  .bp2-col-one-third {
+    width: 33.333%; }
+
+  .bp2-col-two-thirds {
+    width: 66.666%; }
+
+  .bp2-col-one-quarter {
+    width: 25%; }
+
+  .bp2-col-three-quarters {
+    width: 75%; } }
+/* -- Breakpoint 3 (.bp3)
+------------------------------------------------------------- */
+@media only screen and (min-width: 60em) {
+  .bp3-col-full {
+    width: 100%; }
+
+  .bp3-col-one-half {
+    width: 50%; }
+
+  .bp3-col-one-third {
+    width: 33.333%; }
+
+  .bp3-col-two-thirds {
+    width: 66.666%; }
+
+  .bp3-col-one-quarter {
+    width: 25%; }
+
+  .bp3-col-three-quarters {
+    width: 75%; } }

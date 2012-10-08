@@ -1,0 +1,123 @@
+/*
+Author  : Boon
+URL     : http://builtbyboon.com
+Twitter	: http://twitter.com/mattberridge
+---------------------------------------*/
+.bp1-col-full {
+  width: 100%; }
+
+.bp1-col-one-half {
+  width: 50%; }
+
+.bp1-col-one-third {
+  width: 33.333%; }
+
+.bp1-col-two-thirds {
+  width: 66.666%; }
+
+.bp1-col-one-quarter {
+  width: 25%; }
+
+.bp1-col-three-quarters {
+  width: 75%; }
+
+.bp2-col-full {
+  width: 100%; }
+
+.bp2-col-one-half {
+  width: 50%; }
+
+.bp2-col-one-third {
+  width: 33.333%; }
+
+.bp2-col-two-thirds {
+  width: 66.666%; }
+
+.bp2-col-one-quarter {
+  width: 25%; }
+
+.bp2-col-three-quarters {
+  width: 75%; }
+
+.bp3-col-full {
+  width: 100%; }
+
+.bp3-col-one-half {
+  width: 50%; }
+
+.bp3-col-one-third {
+  width: 33.333%; }
+
+.bp3-col-two-thirds {
+  width: 66.666%; }
+
+.bp3-col-one-quarter {
+  width: 25%; }
+
+.bp3-col-three-quarters {
+  width: 75%; }
+
+.lt-ie9 .container {
+  width: 960px; }
+
+/* -- IE7 or less
+------------------------------------------------------------- */
+.lt-ie8 .grid-wrap {
+  margin-left: 0; }
+.lt-ie8 .grid-col {
+  padding: 0;
+  margin-left: 5%; }
+  .lt-ie8 .grid-col:first-child {
+    margin-left: 0; }
+
+.lt-ie8 .col-full {
+  width: 99.95%; }
+.lt-ie8 .col-one-half {
+  width: 47.45%; }
+.lt-ie8 .col-one-third {
+  width: 29.55%; }
+.lt-ie8 .col-two-thirds {
+  width: 64.95%; }
+.lt-ie8 .col-one-quarter {
+  width: 19.95%; }
+.lt-ie8 .col-three-quarters {
+  width: 74.95%; }
+
+.lt-ie8 .bp1-col-full {
+  width: 99.95%; }
+.lt-ie8 .bp1-col-one-half {
+  width: 47.45%; }
+.lt-ie8 .bp1-col-one-third {
+  width: 29.55%; }
+.lt-ie8 .bp1-col-two-thirds {
+  width: 64.95%; }
+.lt-ie8 .bp1-col-one-quarter {
+  width: 19.95%; }
+.lt-ie8 .bp1-col-three-quarters {
+  width: 74.95%; }
+
+.lt-ie8 .bp2-col-full {
+  width: 99.95%; }
+.lt-ie8 .bp2-col-one-half {
+  width: 47.45%; }
+.lt-ie8 .bp2-col-one-third {
+  width: 29.55%; }
+.lt-ie8 .bp2-col-two-thirds {
+  width: 64.95%; }
+.lt-ie8 .bp2-col-one-quarter {
+  width: 19.95%; }
+.lt-ie8 .bp2-col-three-quarters {
+  width: 74.95%; }
+
+.lt-ie8 .bp3-col-full {
+  width: 99.95%; }
+.lt-ie8 .bp3-col-one-half {
+  width: 47.45%; }
+.lt-ie8 .bp3-col-one-third {
+  width: 29.55%; }
+.lt-ie8 .bp3-col-two-thirds {
+  width: 64.95%; }
+.lt-ie8 .bp3-col-one-quarter {
+  width: 19.95%; }
+.lt-ie8 .bp3-col-three-quarters {
+  width: 74.95%; }
