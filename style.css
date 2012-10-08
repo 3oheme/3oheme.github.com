@@ -3,6 +3,175 @@ Author  : Boon
 URL     : http://builtbyboon.com
 Twitter	: http://twitter.com/mattberridge
 ---------------------------------------*/
+
+/* gridlover.net */ 
+
+body {
+    font-size: 1.12500em;
+    line-height: 1.50000em;
+}
+article {
+    max-width: 944px;
+    margin: auto;
+}
+h1 {
+    font-size: 6.83333em;
+    line-height: 1.09756em;
+    margin-top: 0.2195em;
+    margin-bottom: 0.439em;
+}
+h2 {
+    font-size: 2.61111em;
+    line-height: 1.14894em;
+    margin-top: 1.1489em;
+    margin-bottom: 0.5745em;
+}
+h3 {
+    font-size: 1.61111em;
+    line-height: 1.86207em;
+    margin-top: 0.931em;
+    margin-bottom: 0em;
+}
+p, ul {
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+}
+small, aside {
+    font-size: 0.61111em;
+}
+
+/*
+////////////////////////////
+
+reset styles
+
+ */
+
+/* resets and basics */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  line-height: inherit;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-rendering: optimizeLegibility;
+}
+a {
+  text-decoration: none;
+  color: hsl(205, 20%, 50%);
+}
+a:hover {
+  text-decoration: underline;
+}
+button, input, textarea, .button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+textarea {
+  background: white;
+}
+input::-webkit-input-placeholder, isindex::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: hsl(200, 50%, 50%);
+}
+button, .button {
+  color: hsl(205, 70%, 50%);
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0em -.25em 0em -.25em;
+  padding: 0em .25em 0em .25em;
+  text-decoration: none;
+  display: inline-block;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+  background: hsla(205, 75%, 55%, 1);
+  color: white;
+}
+/* fix mozillas broken button style */
+
+button::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="reset"]::-moz-focus-inner {
+    padding: 0;
+    border: 0 none;
+}
+button:focus,
+button:active,
+.button:focus,
+.button:active,
+a:focus,
+a:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+  box-shadow: 0px 0px 2px hsla(205, 90%, 40%, 1), 0px 0px 2px hsla(205, 90%, 40%, 1);
+}
+:focus, .focus {
+  outline: none;
+  box-shadow: 0px 0px 2px hsla(205, 90%, 40%, 1), 0px 0px 2px hsla(205, 90%, 40%, 1);
+}
+abbr {
+  font-size: 1.16em;
+  font-variant: small-caps;
+}
+::selection {
+  background: hsla(205, 90%, 40%, .7);
+  color: white;
+}
+aside {
+  float: right;
+  text-align: left;
+  padding: 0 0 0 1.5em;
+  margin: 0 0 0 1em;
+  max-width: 20em;
+}
+ul {
+  list-style-type: square;
+}
+ul, ol, li {
+  list-style-position: outside;
+  margin: 0;
+  padding: 0;
+}
+blockquote::before {
+  content: "\201c";
+}
+blockquote::after {
+  content: "\201d";
+}
+pre {
+  white-space: pre-wrap;
+}
+code {
+  white-space: pre-wrap;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {
+  padding: 0 1em 0 0;
+}
+iframe {
+  border: none;
+}
+
+
+
+/* */
+
+
 body {
   margin: 0;
   font: 1em/1.5 sans-serif; }
