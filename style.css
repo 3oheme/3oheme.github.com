@@ -4,42 +4,6 @@ URL     : http://builtbyboon.com
 Twitter	: http://twitter.com/mattberridge
 ---------------------------------------*/
 
-/* gridlover.net */ 
-
-body {
-    font-size: 1.12500em;
-    line-height: 1.50000em;
-}
-article {
-    max-width: 944px;
-    margin: auto;
-}
-h1 {
-    font-size: 6.83333em;
-    line-height: 1.09756em;
-    margin-top: 0.2195em;
-    margin-bottom: 0.439em;
-}
-h2 {
-    font-size: 2.61111em;
-    line-height: 1.14894em;
-    margin-top: 1.1489em;
-    margin-bottom: 0.5745em;
-}
-h3 {
-    font-size: 1.61111em;
-    line-height: 1.86207em;
-    margin-top: 0.931em;
-    margin-bottom: 0em;
-}
-p, ul {
-    margin-top: 0em;
-    margin-bottom: 1.5em;
-}
-small, aside {
-    font-size: 0.61111em;
-}
-
 /*
 ////////////////////////////
 
@@ -165,6 +129,42 @@ td, th {
 }
 iframe {
   border: none;
+}
+
+/* gridlover.net */ 
+
+body {
+    font-size: 1.12500em;
+    line-height: 1.50000em;
+}
+article {
+    max-width: 944px;
+    margin: auto;
+}
+h1 {
+    font-size: 6.83333em;
+    line-height: 1.09756em;
+    margin-top: 0.2195em;
+    margin-bottom: 0.439em;
+}
+h2 {
+    font-size: 2.61111em;
+    line-height: 1.14894em;
+    margin-top: 1.1489em;
+    margin-bottom: 0.5745em;
+}
+h3 {
+    font-size: 1.61111em;
+    line-height: 1.86207em;
+    margin-top: 0.931em;
+    margin-bottom: 0em;
+}
+p, ul {
+    margin-top: 0em;
+    margin-bottom: 1.5em;
+}
+small, aside {
+    font-size: 0.61111em;
 }
 
 
