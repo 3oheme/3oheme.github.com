@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a {
   text-decoration: none;
-  color: hsl(205, 20%, 50%);
+  color: hsl(73, 20%, 50%);
 }
 a:hover {
   text-decoration: underline;
