@@ -1,20 +1,70 @@
----
-layout: default
-title: Home
----
+<!doctype html>
+<!--[if lt IE 8]><html class="lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Ignacio Palomo Duarte – 3oheme.com</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="styles.css">
+	<!--[if lt IE 9]><link rel="stylesheet" href="ie.css"><![endif]-->
+</head>
+<body>
 
-<!-- Show last 5 posts here -->
-{% for post in site.posts limit: 5  %}
+	<div class="container">
 	
-	<div class="grid-col">
-
-		<h2>{{ post.title }}</h2>
-		<span class="date">{{ post.date | date_to_string }}</span>
+		
+		<div class="grid-wrap">
+			<div class="grid-col">
+				<h1>A designveloper with common sense :-)</h1>
+				<p>Hi all! I'm Ignacio Palomo Duarte, a computer engineer and webdeveloper lover working in <a href="http://www.thoughtworks.com" title="ThoughtWorks, agile lovers!">ThoughtWorks</a>.</p>
+				<p>I’m also a creative person, with extensive knowledge of graphic design, UX, usability and SEO, who is open to new projects, learning and growing.</p>
+			</div>
+		</div>
 	
-		<div class="entry">{{ post.excerpt }}</div>
+		<div class="grid-wrap">
+			<div class="grid-col">
+				<h2>What about design?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+			</div>
+		</div>
+		<div class="grid-wrap">
+			<div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div>
+			
+			<div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div><div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
+				<img src="http://farm9.staticflickr.com/8066/8238250269_f755e1f885_q.jpg" />
+			</div>
 
-        <span class="meta"><a href="{{site.baseurl}}{{ post.url }}">Read More</a></span>
+		</div>
+
+		<div class="grid-wrap">
+			<div class="grid-col">
+				<p class="footer">Ignacio Palomo Duarte – leave me a message: hello at 3oheme.com</p>
+			</div>
+		</div>
+
 	</div>
-
-	
-{% endfor %}
+</body>
+</html>

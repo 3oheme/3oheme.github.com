@@ -1,0 +1,188 @@
+/*
+
+ ______   ______   ___   ___   ______   ___ __ __   ______      
+/_____/\ /_____/\ /__/\ /__/\ /_____/\ /__//_//_/\ /_____/\     
+\:::_:\ \\:::_ \ \\::\ \\  \ \\::::_\/_\::\| \| \ \\::::_\/_    
+   /_\:\ \\:\ \ \ \\::\/_\ .\ \\:\/___/\\:.      \ \\:\/___/\   
+   \::_:\ \\:\ \ \ \\:: ___::\ \\::___\/_\:.\-/\  \ \\::___\/_  
+   /___\:\ '\:\_\ \ \\: \ \\::\ \\:\____/\\. \  \  \ \\:\____/\ 
+   \______/  \_____\/ \__\/ \::\/ \_____\/ \__\/ \__\/ \_____\/ 
+                                                                
+
+---------------------------------------*/
+body {
+  margin: 0 auto;
+  font: 1.3em/1.5 'Quattrocento Sans', sans-serif;
+  max-width: 40em;
+  color: #333;
+  background: url('debut_light.png'); }
+
+.container {
+  width: 90%;
+  margin: 2em auto; }
+
+p {
+  margin: 0 0 1.5em 0; }
+
+a {
+  color: #00aeef; }
+
+h1 {
+  line-height: 1.1em;
+  font-size: 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%; }
+
+.footer {
+  border-top: 1px solid #DDD;
+  padding-top: 1em;
+  margin-top: 2em;
+}
+
+/* -- Begin grids
+------------------------------------------------------------- */
+
+/* -- Setup grids with base class -- */
+.grid-wrap {
+  margin-left: -3em;
+  overflow: hidden;
+  clear: both; }
+
+.grid-col {
+  float: left;
+  padding-left: 3em;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.gutter-bottom {
+  padding-bottom: 3em;
+}
+
+.large-gutter {
+  margin-left: -6em; }
+  .large-gutter .grid-col {
+    padding-left: 6em; }
+
+.half-gutter {
+  margin-left: -1.5em; }
+  .half-gutter .grid-col {
+    padding-left: 1.5em; }
+
+.no-gutter {
+  margin-left: 0; }
+  .no-gutter .grid-col {
+    padding-left: 0; }
+
+.reset-gutter {
+  margin-left: -3em; }
+  .reset-gutter .grid-col {
+    padding-left: 3em; }
+
+ul.grid-wrap,
+ol.grid-wrap {
+  padding-left: 0;
+  list-style: none; }
+
+li.grid-col {
+  margin-left: 0;
+  margin-bottom: 0; }
+
+.col-full,
+.col-set-full .grid-col {
+  width: 100%; }
+
+.col-one-half,
+.col-set-one-half .grid-col {
+  width: 50%; }
+
+.col-one-third,
+.col-set-one-third .grid-col {
+  width: 33.333%; }
+
+.col-one-quarter,
+.col-set-one-quarter .grid-col {
+  width: 25%; }
+
+.col-two-thirds {
+  width: 66.666%; }
+
+.col-three-quarters {
+  width: 75%; }
+
+/* -- Breakpoint (.bp1)
+------------------------------------------------------------- */
+@media only screen and (min-width: 30em) {
+  .bp1-col-full,
+  .bp1-col-set-full .grid-col {
+    width: 100%; }
+
+  .bp1-col-one-half,
+  .bp1-col-set-one-half .grid-col {
+    width: 50%; }
+
+  .bp1-col-one-third,
+  .bp1-col-set-one-third .grid-col {
+    width: 33.333%; }
+
+  .bp1-col-one-quarter,
+  .bp1-col-set-one-quarter .grid-col {
+    width: 25%; }
+
+  .bp1-col-two-thirds {
+    width: 66.666%; }
+
+  .bp1-col-three-quarters {
+    width: 75%; } }
+/* -- Breakpoint 2 (.bp2)
+------------------------------------------------------------- */
+@media only screen and (min-width: 40em) {
+  .bp2-col-full,
+  .bp2-col-set-full .grid-col {
+    width: 100%; }
+
+  .bp2-col-one-half,
+  .bp2-col-set-one-half .grid-col {
+    width: 50%; }
+
+  .bp2-col-one-third,
+  .bp2-col-set-one-third .grid-col {
+    width: 33.333%; }
+
+  .bp2-col-one-quarter,
+  .bp2-col-set-one-quarter .grid-col {
+    width: 25%; }
+
+  .bp2-col-two-thirds {
+    width: 66.666%; }
+
+  .bp2-col-three-quarters {
+    width: 75%; } }
+/* -- Breakpoint 3 (.bp3)
+------------------------------------------------------------- */
+@media only screen and (min-width: 50em) {
+  .bp3-col-full,
+  .bp3-col-set-full .grid-col {
+    width: 100%; }
+
+  .bp3-col-one-half,
+  .bp3-col-set-one-half .grid-col {
+    width: 50%; }
+
+  .bp3-col-one-third,
+  .bp3-col-set-one-third .grid-col {
+    width: 33.333%; }
+
+  .bp3-col-one-quarter,
+  .bp3-col-set-one-quarter .grid-col {
+    width: 25%; }
+
+  .bp3-col-two-thirds {
+    width: 66.666%; }
+
+  .bp3-col-three-quarters {
+    width: 75%; } }
