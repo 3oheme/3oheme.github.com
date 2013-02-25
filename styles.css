@@ -46,6 +46,10 @@ img {
   display: block;
   max-width: 100%; }
 
+a img:hover {
+  opacity: 0.6;
+}
+
 .footer {
   border-top: 1px solid #333;
   padding-top: 1em;
@@ -59,12 +63,25 @@ img {
   padding: 1em 0;
 }
 
-.social-icon {
+.social-icons {
+  text-align: center;
+}
+
+.social-icons img {
   display: inline-block;
   text-indent: -9999em;
   height: 3em;
   width: 3em;
   overflow: hidden;
+  padding: 0 0.5em;
+}
+
+.social-icons span {
+  text-indent: -99999px;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  display: inline-block;
 }
 
 
