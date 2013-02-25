@@ -12,8 +12,8 @@
 ---------------------------------------*/
 body {
   margin: 0 auto;
-  font: 1.1em/1.5 'Quattrocento Sans', sans-serif;
-  max-width: 40em;
+  font: 1em/1.8em 'Droid Serif', serif;
+  max-width: 50em;
   color: #333;
   background: url('debut_light.png'); }
 
@@ -29,8 +29,17 @@ a {
   color: #00aeef; }
 
 h1 {
-  line-height: 1.1em;
-  font-size: 2em;
+  margin: 0;
+}
+
+h1 img {
+  width: 40%;
+  margin: 0 0 -1em;
+}
+
+h2 {
+  font-weight: normal;
+  line-height: 1.3em;
 }
 
 img {
@@ -38,10 +47,28 @@ img {
   max-width: 100%; }
 
 .footer {
-  border-top: 1px solid #DDD;
+  border-top: 1px solid #333;
   padding-top: 1em;
   margin-top: 2em;
 }
+
+.hero {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  box-shadow: 0 1px 4px -2px, inset 0 1px 4px -2px;
+  padding: 1em 0;
+}
+
+.social-icon {
+  display: inline-block;
+  text-indent: -9999em;
+  height: 3em;
+  width: 3em;
+  overflow: hidden;
+}
+
+
+
 
 /* -- Begin grids
 ------------------------------------------------------------- */
@@ -120,7 +147,28 @@ li.grid-col {
 @media only screen and (min-width: 35em) {
 
   body {
-    font-size: 1.3em }
+    font-size: 1.1em }
+
+  h1 {
+    text-align: center;
+  }
+
+  h1 img {
+    margin: 0 auto -2em;
+  }
+
+
+  h2 {
+    text-align: center;
+    line-height: 1.4em;
+    font-size: 1.7em;
+  }
+
+  .isolated {
+    width: 35em;
+    margin: 0 auto;
+    float: none;
+  }
 
   p {
     text-shadow: 1px 0 1px #FFF }
@@ -149,6 +197,10 @@ li.grid-col {
 /* -- Breakpoint 2 (.bp2)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 40em) {
+
+  body {
+    font-size: 1.2em }
+
   .bp2-col-full,
   .bp2-col-set-full .grid-col {
     width: 100%; }
