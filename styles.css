@@ -22,7 +22,7 @@ body {
   margin: 2em auto; }
 
 p {
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1.74em 0;
   }
 
 a {
@@ -40,6 +40,7 @@ h1 img {
 h2 {
   font-weight: normal;
   line-height: 1.3em;
+  margin: 1.7em 0;
 }
 
 img {
@@ -84,7 +85,14 @@ a img:hover {
   display: inline-block;
 }
 
-
+.profile-photo {
+  float: right;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 9px #999;
+  padding: 6px;
+  background: white;
+  margin: 0 0 1em 1em;
+}
 
 
 /* -- Begin grids
@@ -162,6 +170,11 @@ li.grid-col {
 /* -- Breakpoint (.bp1)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 35em) {
+
+  .profile-photo {
+    -webkit-transition: -webkit-transform 2s;
+    -webkit-transform: rotate(4deg);
+  }
 
   body {
     font-size: 1.1em }
