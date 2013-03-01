@@ -26,7 +26,15 @@ p {
   }
 
 a {
+  -webkit-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+     -o-transition:  opacity 0.2s ease;
+        transition: opacity 0.2s ease;
   color: #00aeef; }
+
+a:hover {
+  opacity: 0.6;
+}
 
 h1 {
   margin: 0;
@@ -34,7 +42,7 @@ h1 {
 
 h1 img {
   width: 40%;
-  margin: 0 0 -1em;
+  margin: 0 0 -2em;
 }
 
 h2 {
@@ -60,7 +68,6 @@ a img:hover {
 .hero {
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
-  box-shadow: 0 1px 4px -2px, inset 0 1px 4px -2px;
   padding: 1em 0;
 }
 
@@ -69,12 +76,20 @@ a img:hover {
 }
 
 .social-icons img {
+  -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+     -o-transition:  opacity 0.5s ease;
+        transition: opacity 0.5s ease;
+  height: 2em;
+  width: 2em;
   display: inline-block;
-  text-indent: -9999em;
-  height: 3em;
-  width: 3em;
   overflow: hidden;
   padding: 0 0.5em;
+  opacity: 0.3;
+}
+
+.social-icons img:hover {
+  opacity: 0.7;
 }
 
 .social-icons span {
@@ -93,6 +108,18 @@ a img:hover {
   background: white;
   margin: 0 0 1em 1em;
   width: 25%;
+}
+
+.tweet_avatar {
+  float: right;
+  margin: 5px 0 0 10px;
+  padding: 3px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.tweet_time {
+  display: block;
 }
 
 
@@ -171,16 +198,16 @@ li.grid-col {
 /* -- Breakpoint (.bp1)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 35em) {
-
+  
   .profile-photo {
-    -webkit-transition: -webkit-transform 0.5s ease;
-    -webkit-transform: rotate(4deg);
+   -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    -ms-transform:rotate(4deg);
+     -o-transform:rotate(4deg);
+        transform:rotate(4deg);
+
     width: auto;
     padding: 6px;
-  }
-
-  .profile-photo:hover {
-    -webkit-transform: rotate(0deg);
   }
 
   body {
@@ -191,9 +218,9 @@ li.grid-col {
   }
 
   h1 img {
-    margin: 0 auto -2em;
+    width: 20%;
+    margin: 0 auto -2.4em;
   }
-
 
   h2 {
     text-align: center;
@@ -205,6 +232,11 @@ li.grid-col {
     max-width: 35em;
     margin: 0 auto;
     float: none;
+  }
+
+  .smaller-text {
+    font-size: 0.8em;
+    line-height: 1.9em;
   }
 
   p {

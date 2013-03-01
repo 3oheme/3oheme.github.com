@@ -9,8 +9,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="styles.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jquery.tweet.js"></script>
 	<!--[if lt IE 9]><link rel="stylesheet" href="ie.css"><![endif]-->
-</head>
+  </head>
 <body>
 
 	<div class="container">
@@ -31,6 +33,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
 			</div>
 		</div>
+
+    <div id="tweets" class="smaller-text"></div>
 
 		<div class="grid-wrap">
 			<div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter gutter-bottom">
@@ -66,9 +70,13 @@
         <p>
           <a href="http://www.behance.net/3oheme" title="Behance network" ><img src="behance.svg" /><span>Behance network Portfolio</span></a>
           <a href="http://delicious.com/bohemeboheme" title="Delicious bookmarks" ><img src="delicious.svg" /><span>One hundred million bookmarks saved during lots of years</span></a>
-        
           <a href="http://drupal.org/user/134099" title="My old Drupal account" ><img src="drupal.svg" /><span>My good old Drupal account</span></a>
           <a href="http://www.flickr.com/3oheme" title="Photo gallery on Flickr" ><img src="flickr.svg" /><span>My photo galleries on Flickr</span></a>
+          <a href="http://www.github.com/3oheme" title="Some coding stuff" ><img src="github.svg" /><span>Some of my code is stored in Github</span></a>
+          <a href="http://grooveshark.com/3oheme" title="Feel free to stalk music I use to listen to" ><img src="grooveshark.svg" /><span>Grooveshark account</span></a>
+          <a href="http://3oheme.tumblr.com/" title="tumblr blog" ><img src="rss.svg" /><span>My tumblr blog</span></a>
+          <a href="http://www.twitter.com/boheme" title="twitter one-hundred-and-forty-network" ><img src="twitter.svg" /><span>Twitter account</span></a>
+
         </p>
       </div>
     </div>
@@ -80,5 +88,18 @@
 		</div>
 
 	</div>
+  
+  <script type='text/javascript'>
+    jQuery(function($){
+        $("#tweets").tweet({
+            username: "boheme",
+            join_text: "auto",
+            avatar_size: 32,
+            count: 3,
+            loading_text: "loading tweets..."
+        });
+    });
+  </script>
+
 </body>
 </html>
