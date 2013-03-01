@@ -89,9 +89,10 @@ a img:hover {
   float: right;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 9px #999;
-  padding: 6px;
+  padding: 4px;
   background: white;
   margin: 0 0 1em 1em;
+  width: 25%;
 }
 
 
@@ -172,8 +173,14 @@ li.grid-col {
 @media only screen and (min-width: 35em) {
 
   .profile-photo {
-    -webkit-transition: -webkit-transform 2s;
+    -webkit-transition: -webkit-transform 0.5s ease;
     -webkit-transform: rotate(4deg);
+    width: auto;
+    padding: 6px;
+  }
+
+  .profile-photo:hover {
+    -webkit-transform: rotate(0deg);
   }
 
   body {
@@ -195,7 +202,7 @@ li.grid-col {
   }
 
   .isolated {
-    width: 35em;
+    max-width: 35em;
     margin: 0 auto;
     float: none;
   }
