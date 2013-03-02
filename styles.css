@@ -78,6 +78,7 @@ a img:hover {
 }
 
 .social-icons {
+  margin-top: 2em;
   text-align: center;
 }
 
@@ -86,11 +87,11 @@ a img:hover {
     -moz-transition: opacity 0.5s ease;
      -o-transition:  opacity 0.5s ease;
         transition: opacity 0.5s ease;
-  height: 2em;
-  width: 2em;
+  height: 3em;
+  width: 3em;
   display: inline-block;
   overflow: hidden;
-  padding: 0 0.5em;
+  padding: 0 0.8em 1em;
   opacity: 0.3;
 }
 
@@ -161,7 +162,7 @@ a img:hover {
   box-sizing: border-box; }
 
 .gutter-bottom {
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 }
 
 .large-gutter {
@@ -218,7 +219,11 @@ li.grid-col {
 /* -- Breakpoint (.bp1)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 35em) {
-  
+
+  .footer {
+    text-align: center;
+  }  
+
   .profile-photo {
    -webkit-transform:rotate(4deg);
     -moz-transform:rotate(4deg);
@@ -252,10 +257,6 @@ li.grid-col {
     text-align: center;
   }
 
-  .gutter-bottom {
-    padding-bottom: 3em;
-  }
-
   .isolated {
     max-width: 35em;
     margin: 0 auto;
@@ -265,6 +266,16 @@ li.grid-col {
   .smaller-text {
     font-size: 0.8em;
     line-height: 1.7em;
+  }
+
+  
+  .social-icons  {
+    text-align: center
+  }
+
+  .social-icons img {
+    width: 2em;
+    height: 2em;
   }
 
   p {
