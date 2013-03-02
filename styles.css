@@ -141,8 +141,16 @@ a img:hover {
 
 .grid-wrap {
   margin-left: -3em;
-  overflow: hidden;
   clear: both; }
+
+ .grid-wrap:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
 
 .grid-col {
   float: left;
