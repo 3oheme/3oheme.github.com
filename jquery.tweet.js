@@ -30,7 +30,7 @@
       twitter_url: "twitter.com",               // [string]   custom twitter url, if any (apigee, etc.)
       twitter_api_url: "api.twitter.com",       // [string]   custom twitter api url, if any (apigee, etc.)
       twitter_search_url: "search.twitter.com", // [string]   custom twitter search url, if any (apigee, etc.)
-      template: "{avatar}{join} {text} {time}",  // [string or function] template used to construct each tweet <li> - see code for available vars
+      template: "<p>{avatar}{join} {text} {time}</p>",  // [string or function] template used to construct each tweet <li> - see code for available vars
       comparator: function(tweet1, tweet2) {    // [function] comparator used to sort tweets (see Array.sort)
         return tweet2.tweet_time - tweet1.tweet_time;
       },
@@ -219,7 +219,7 @@
 
     function render_tweets(widget, tweets) {
       var list = $('<div class="grid-wrap">');
-      list.append($.map(tweets, function(o) { return "<div class='grid-col bp1-col-one-third gutter-bottom'>" + t(s.template, o) + "</div>"; }).join('')).
+      list.append($.map(tweets, function(o) { return "<div class='grid-col bp1-col-one-third'>" + t(s.template, o) + "</div>"; }).join('')).
         children('li:first').addClass('tweet_first').end().
         children('li:odd').addClass('tweet_even').end().
         children('li:even').addClass('tweet_odd');
