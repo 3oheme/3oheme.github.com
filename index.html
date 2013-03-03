@@ -37,6 +37,9 @@
     <h3 class="section-title">Latest tweets</h3>
     <div id="tweets" class="smaller-text"></div>
 
+    <h3 class="section-title">Latest blog entries</h3>
+    <div id="blog" class="smaller-text grid-wrap"></div>
+
     <h3>Photography</h3>
 		<div class="grid-wrap">
 
@@ -70,7 +73,20 @@
         </a>
       </div>
 
+      <div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter bp3-col-one-fifth gutter-bottom full-width-image">
+        <a href="http://www.flickr.com/photos/3oheme/5797530766" title="El final de un duro dia">
+          <img src="el-final-de-un-duro-dia.jpg" alt="Volviendo a casa, sin aspavientos ni maldiciones, preguntándote una vez más por qué lo haces." />
+        </a>
+      </div>
+
+      <div class="grid-col col-one-half bp1-col-one-third bp2-col-one-quarter bp3-col-one-fifth gutter-bottom full-width-image">
+        <a href="http://www.flickr.com/photos/3oheme/8238250269" title="Thinking about life, universe and everything">
+          <img src="thinking-about-life.jpg" alt="A lonely person, sitting in a bench in Edinburg." />
+        </a>
+      </div>
+
 		</div>
+
 
     <div class="grid-wrap">
       <div class="grid-col social-icons">
@@ -104,9 +120,31 @@
             avatar_size: 32,
             count: 3,
             loading_text: "loading tweets...",
-            auto_join_text_url: ""
+            auto_join_text_default: ""
         });
     });
+  </script>
+
+  <script>
+      $.ajax({
+        url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('http://3oheme.tumblr.com/rss'),
+        dataType: 'json',
+        success: function(data) {
+          for (var i = 0; i < 3; i++) {
+            title = data.responseData.feed.entries[i].title;
+            link = data.responseData.feed.entries[i].link;
+            description = data.responseData.feed.entries[i].contentSnippet;
+            console.log(data.responseData.feed.entries[i]);
+            $('#blog').append(' \
+              <div class="grid-col bp1-col-one-third gutter-bottom">                    \
+                <p><a href="'+ link +'" title="link to tumblr post with title: '+ title +'">    \
+                  '+ title +'                                                   \
+                </a> — '+ description +'</p>                                                                    \
+              </div>');
+          }      
+        }
+      });
+
   </script>
 
 </body>
