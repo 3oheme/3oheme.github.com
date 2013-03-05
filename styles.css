@@ -128,6 +128,12 @@ a img:hover {
   display: block;
 }
 
+.flickr a {
+  padding: 6px;
+  border: 1px solid #ddd;
+  background: white;
+  display: inline-block;
+}
 
 /* -- Begin grids
 ------------------------------------------------------------- */
