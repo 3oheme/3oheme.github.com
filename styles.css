@@ -98,12 +98,14 @@ a img:hover {
   opacity: 0.7;
 }
 
+.hideme,
 .social-icons span {
   text-indent: -99999px;
   overflow: hidden;
   width: 0;
   height: 0;
   display: inline-block;
+  position: absolute;
 }
 
 .profile-photo {
