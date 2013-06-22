@@ -1,0 +1,85 @@
+<!doctype html>
+<!--[if lt IE 8]><html class="lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Ignacio Palomo Duarte – 3oheme.com</title>
+  <meta name="description" content="Portfolio and personal homepage of Ignacio Palomo Duarte">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="google-site-verification" content="HCCNq224wUDwu2B7QUG12JXQKMC3Xh0FhPHgmnUfZ1Y" />
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="styles.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--[if lt IE 9]><link rel="stylesheet" href="ie.css"><![endif]-->
+  <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone-retina.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad-retina.png" />
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@boheme">
+  <meta name="twitter:creator" content="@boheme">
+  <meta name="twitter:title" content="Ignacio Palomo Duarte | Portfolio and personal homepage">
+  <meta name="twitter:description" content="This is the homepage of Ignacio, a webdeveloper, UX and graphic designer working in ThoughtWorks - just come in and have a look at my portfolio or contact me.">
+  <meta name="twitter:image" content="http://3oheme.com/website-screenshot.png">
+
+
+  <script type="text/javascript">
+  function trackOutboundLink(link, category, action) { 
+     
+     try { 
+       _gaq.push(['_trackEvent', category , action]); 
+     } catch(err){}
+      
+      setTimeout(function() {
+        document.location.href = link.href;
+      }, 100);
+  }
+  </script>
+
+</head>
+<body>
+
+	<div class="container">
+	
+  <h1>Look ma, sub directories</h1>
+
+	</div>
+
+  <script>
+      $.ajax({
+        url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('http://3oheme.tumblr.com/rss'),
+        dataType: 'json',
+        success: function(data) {
+          for (var i = 0; i < 3; i++) {
+            title = data.responseData.feed.entries[i].title;
+            link = data.responseData.feed.entries[i].link;
+            description = data.responseData.feed.entries[i].contentSnippet;
+            console.log(data.responseData.feed.entries[i]);
+            $('#blog').append(' \
+              <div class="grid-col bp1-col-one-third"> \
+                <p><a href="'+ link +'" title="link to tumblr post with title: '+ title +'"> \
+                  '+ title +' \
+                </a> — '+ description +'</p> \
+              </div>');
+          }      
+        }
+      });
+
+  </script>
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11435750-8']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+
+</body>
+</html>
