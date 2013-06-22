@@ -15,7 +15,7 @@ body {
   font: 1em/1.8em 'Droid Serif', serif;
   max-width: 50em;
   color: #333;
-  background: url('debut_light.png'); }
+  background: url('../resources/debut_light.png'); }
 
 .container {
   width: 90%;
