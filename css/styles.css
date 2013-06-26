@@ -69,6 +69,13 @@ a img:hover {
   opacity: 0.6;
 }
 
+blockquote {
+  border-left: 1px solid #666;
+  margin: 0;
+  padding: 0 0 0 2em;
+  font-style: italic;
+}
+
 .footer {
   border-top: 1px solid #666;
   padding-top: 1em;
