@@ -141,12 +141,20 @@ a img:hover {
   display: inline-block;
 }
 
+
+.latest-profile {
+  border-top: 1px solid #666;
+  margin-top: 1em;
+  padding-top: 3em;
+}
+
 /* -- Begin grids
 ------------------------------------------------------------- */
 
 /* -- Setup grids with base class -- */
 
-.full-width-image img {
+.full-width-image img,
+img.full-width-image {
   min-width: 100%;
   max-width: 100%;
 }
@@ -270,6 +278,12 @@ li.grid-col {
 
   .isolated {
     max-width: 35em;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .post {
+    max-width: 40em;
     margin: 0 auto;
     float: none;
   }
