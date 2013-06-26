@@ -7,14 +7,12 @@ categories: blog
 
 ---
 
-<p><img class="full-width-image" src="/images/have_fun_with_your_camera.png" /></p>
+<p><img class="full-width-image" src="/images/have_fun_with_your_camera.jpg" /></p>
 
 I still remember talking with my good old friend Joaquin whether I should spend all my money buying a 1000€ Nikon DSLR. He already had one, so I approached him looking for advice. He asked me:
 
-— Do you like taking pictures?
-
-— I do absolutely love it.
-
+— Do you like taking pictures?   
+— I do absolutely love it.   
 — **So just buy it, mate, you will not regret it!**
 
 And I’ve never taken a better decision (money talking!). Numbers say 23866 pictures taken during six years, but experience tells about people, friends, smiles, difficult moments in my life, towns, cities, countries, trips, new jobs, conferences, skills, new family members, finding the most awesome girl in the world, photowalks, so many more. And having fun. **Lots of fun**.
