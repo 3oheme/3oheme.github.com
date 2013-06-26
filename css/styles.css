@@ -148,6 +148,7 @@ a img:hover {
   padding-top: 3em;
 }
 
+
 /* -- Begin grids
 ------------------------------------------------------------- */
 
@@ -383,4 +384,13 @@ li.grid-col {
     width: 66.666%; }
 
   .bp3-col-three-quarters {
-    width: 75%; } }
+    width: 75%; }
+
+
+  #blog .grid-col:nth-child(3n+1) {
+    clear: both;
+  }
+
+
+  }
+
