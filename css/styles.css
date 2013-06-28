@@ -69,6 +69,13 @@ a img:hover {
   opacity: 0.6;
 }
 
+blockquote {
+  border-left: 1px solid #666;
+  margin: 0;
+  padding: 0 0 0 2em;
+  font-style: italic;
+}
+
 .footer {
   border-top: 1px solid #666;
   padding-top: 1em;
@@ -327,7 +334,14 @@ li.grid-col {
     width: 66.666%; }
 
   .bp1-col-three-quarters {
-    width: 75%; } }
+    width: 75%; }
+
+  #blog .grid-col:nth-child(3n+1) {
+    clear: both;
+  }
+
+}
+
 /* -- Breakpoint 2 (.bp2)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 43em) {
@@ -385,11 +399,6 @@ li.grid-col {
 
   .bp3-col-three-quarters {
     width: 75%; }
-
-
-  #blog .grid-col:nth-child(3n+1) {
-    clear: both;
-  }
 
 
   }
