@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Instagram is completely raping my pictures"
+title:  "Instagram is completely smashing my pictures"
 date:   2013-07-13 13:48:00
 excerpt: "Before and after uploading an architecture photo to Instagram you can see how the quality"
 categories: blog
