@@ -10,7 +10,7 @@ categories: blog
 <p><a class="before-and-after" style="background-size: cover; background-image: url('/images/instagram_raping_my_pictures_after.png')" href="/images/instagram_raping_my_pictures.png"><img class="full-width-image" src="/images/instagram_raping_my_pictures_before.png" title="Before and after my picture was uploaded to Instagram" />
 </a></p>
 
-Before and hover for after. Or just click for full screen. Or just [see the photo as it appears in Instagram](http://instagram.com/p/boHqmuEMSn/).
+Mouse hover for before and after. Or just click for full screen. Or simply [see the photo as it appears in Instagram](http://instagram.com/p/boHqmuEMSn/).
 
 Taken with a Nexus4, cropped and processed in Instagram and no other editing programs involved.
 
