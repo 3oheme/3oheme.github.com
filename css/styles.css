@@ -155,6 +155,17 @@ blockquote {
   padding-top: 3em;
 }
 
+a.before-and-after:hover > img {
+  visibility: hidden;
+}
+
+a.before-and-after,
+a.before-and-after:hover {
+  opacity: 1;
+  display: block;
+  width: 100%;
+}
+
 
 /* -- Begin grids
 ------------------------------------------------------------- */
