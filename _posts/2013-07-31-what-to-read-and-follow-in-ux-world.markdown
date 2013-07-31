@@ -11,7 +11,7 @@ categories: blog
 
 Today in the office I've been asked about how to be up-to-date in the user experience world, and I thought it'd be quite useful to post it here, so anyone can benefit from it :-)
 
-So here we are, my top-10 most awesome blog post you should read, in no specific order:
+So here we are, the 12 most awesome blogs you should read, in no specific order:
 
 * The famous and well-known [Alert box by Nielsen Norman Group](http://www.nngroup.com/articles).
 * An amazing live document about [User-centered design](https://www.gov.uk/service-manual/user-centered-design) from United Kingdom Government Service Design Manual.
@@ -25,3 +25,5 @@ So here we are, my top-10 most awesome blog post you should read, in no specific
 * [Hacker news](https://news.ycombinator.com/) and [Design news](https://news.layervault.com/), for up-to-date stuff.
 * The beautiful and hipster [articles from IA](http://ia.net/blog).
 * Read [Brad Frost blog](http://bradfrostweb.com/blog/) and [follow him on twitter](https://twitter.com/brad_frost).
+
+Would you add anyone else? 
