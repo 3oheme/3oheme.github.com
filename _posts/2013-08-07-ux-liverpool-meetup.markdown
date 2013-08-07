@@ -13,9 +13,9 @@ Yesterday Mircea and I were visiting Liverpool for our first [UXLiverpool meetup
 
 ### How was it?
 
-The main part of the meeting was covered by Ian Walker talk about [Key Project Processes for the whole team](http://bit.ly/1cv9pr2), where he presented a very nice overview of the complete UX process and he detailed when and where we should involve other members of the team in the process. 
+The main part of the meeting was covered by [Ian Walker](http://bit.ly/143iDBz) talk about [Key Project Processes for the whole team](http://bit.ly/1cv9pr2), where he presented a very nice overview of the complete UX process and he detailed **when** and **where** we should **involve other members of the team in the process**. 
 
-As usual, the presentation lead to some very interesting debates and insights, and from my point of view, this is one of the key aspects of this kind of meetings: trying to extrapolate the information to your specific scenario, talking about your experiences applying different techniques, tips and tricks… 
+As usual, the presentation lead to some very interesting debates and insights, and from my point of view, **this is one of the key aspects of this kind of meetings**: trying to extrapolate the information to your specific scenario, talking about your experiences applying different techniques, tips and tricks… 
 
 Some interesting topics where:
 
