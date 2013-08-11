@@ -16,7 +16,7 @@ If you are in a mobile, try following buttons:
 <p><button class='slowclick' style='margin-right: 1em'>Button 1</button>
 <button class='fastclick'>Button 2</button></p>
 
-The first button shows the normal behaviour, and the second one presents the FastClick approach.
+The first button shows the normal behaviour, and the second one presents the FastClick approach. Which one do you think responds faster?
 
 <script type="text/javascript" src="/resources/fastclick_example.js" >&nbsp;</script>
 
