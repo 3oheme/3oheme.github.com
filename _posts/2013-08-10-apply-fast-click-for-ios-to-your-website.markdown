@@ -9,7 +9,7 @@ categories: blog
 
 Some mobile or touch devices apply a **300 ms delay to any touch event**, usually in order to detect zooming with double tap (there is a further detailed explanation in [Google fast buttons article](http://bit.ly/1eAtuJo)). 
 
-That delay is desirable most of the time (and hard to detect!), but when users are dealing with some specific areas like carousels, buttons or dropdowns, **this can be felt as unresponsive and slow**.
+That delay is desirable most of the time, but when users are dealing with some specific areas like carousels, buttons or preloaded tabs, **this can be felt as unresponsive and slow**.
 
 If you are in a mobile, try following buttons:
 
@@ -28,7 +28,7 @@ The first button shows the normal behaviour, and the second one presents the Fas
 
 ### When
 
-I recommend using this trick only in specific scenarios, where we really need to trigger an action immediately, as applying it to any click will disable the double tap zoom in most of devices — and disabling default behaviour is a usability antipattern!
+I recommend using this trick only in specific scenarios, where we really need to trigger an action immediately, as applying it to any click will disable the double tap zoom in most of devices — and disabling default behaviours is  usually a usability antipattern!
 
 
 ### How
