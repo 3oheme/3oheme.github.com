@@ -1,14 +1,23 @@
 ---
 layout: post
-title:  "Where can I find good user personas portrait pictures"
+title:  "Where can I find good user personas portrait pictures?"
 date:   2013-09-11 16:48:00
-excerpt: ""
+excerpt: "We all know that user personas are a fantastic technique to develop a good user-centered design but when you've"
 categories: blog
 
 ---
 
+<p><img class="full-width-image" src="/images/face_photos_for_user_experience_personas.jpg" /></p>
 
-http://www.flickr.com/search/?q=portrait&l=commderiv&ct=0&mt=all&adv=1
-http://www.exactitudes.com/index.php?/series/overview/140
-http://randomuser.me/
-http://www.sxc.hu/
+Hi there!
+
+We all know that user personas are a fantastic technique to develop a good user-centered design but, when you've just finished your first one, the magic question then arises: **where can I get some good portrait photos for my personas?**
+
+So, Here we have some excellent resources to help you find pictures:
+
+* First of all, the easy one: [Flickr searching for portrait pictures](http://www.flickr.com/search/?q=portrait&l=commderiv&ct=0&mt=all&adv=1) under creative common license.
+* The new tool in town: [randomuser.me](http://randomuser.me/) — They even provide an API to fetch JSON files with random user names :-D
+* The classic: [sxc.hu](http://www.sxc.hu/) — it requires to create a free account, but is a good resource for royalty-free stock images.
+* And the sweetest and coolest source: [exactitudes.com](http://www.exactitudes.com) — an amazing photography series from Photographer [Ari Versluis](http://www.ariversluis.com) and profiler [Ellie Uyttenbroek](http://v2.nl/archive/people/ellie-uyttenbroek), focusing in different dress codes and social groups. Just have a look, even if you're not looking for persona pictures.
+
+Enjoy!
