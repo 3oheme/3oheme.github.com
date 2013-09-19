@@ -32,14 +32,20 @@ The cool things:
 
 * UX design tries to solve problems in a **top down approach**, while analytics can solve them in a **bottom up**.
 * Ask Google Analytics how can you [improve the site speed of your site](http://p.barker.dj/sitespeedtips) using the **content -> site speed tab**, as that can be a major improvement to the final user.
-* Did you know that you can very easily **copy and paste different dashboards to your google analytics account**? He recommended adding the [facts about visitors dashboard](dashboardjunkie.com/visitor-facts-dashboard) from [dashboardjunkie](http://www.dashboardjunkie.com/) website. 
+* Did you know that you can very easily **copy and paste different dashboards to your google analytics account**? He recommended adding the [facts about visitors dashboard](http://www.dashboardjunkie.com/visitor-facts-dashboard) from [dashboardjunkie](http://www.dashboardjunkie.com/) website. 
 * Last, but not least, you can use Google Analytics to do all the dirty job when using A/B testing — comparing, deciding which one is stadistically better and even adding JS to serve different pages to the end user!
 
 
 ### Third talk
 
-Last one was Ian Richards, from Serco Global, talking about creativity in a business scenario, and how BAs and UXs should apply creativity in different ways.
+Last one was [Ian Richards](http://www.linkedin.com/in/ianrichards32), from Serco Global, talking about creativity in a business scenario, and how BAs and UXs should apply creativity in different ways.
 
 This talk was more inspirational than practical, but included some very nice quotes like:
 
 *We need to find the balance between creativity, uniformity and standarisation.*
+
+A complete pity I couldn't take more notes :-(
+
+—
+
+That was all. Thanks Sigma for the event, and see you in the next [Camp Digital](http://campdigital.wearesigma.com/)!
