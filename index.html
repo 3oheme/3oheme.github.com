@@ -4,6 +4,7 @@ title: Ignacio Palomo Duarte portfolio
 excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
 ---
 
+    {% if paginator.page == 1 %}
     <header class="grid-wrap">
       <div class="grid-col">
         <h1><span class="hideme">Ignacio Palomo portfolio website</span><a title="Back to homepage" href="/"><img src="/3oheme_logo.png" alt="Logo for 3oheme website" title="3oheme"/></a></h1>
@@ -11,6 +12,7 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
       </div>
     </header>
 
+    
     <div class="grid-wrap">
         <div class="grid-col isolated">
 
@@ -108,12 +110,18 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
 
     <h3 class="section-title">Latest blog entries</h3>
     <div id="blog" class="smaller-text grid-wrap">
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
             <div class="grid-col bp1-col-one-third">
                 <p><a href="{{ post.url }}" title="link to blog post with title: {{ post.title }}"> {{ post.title }} </a> — {{ post.date | date_to_string }} — {{ post.excerpt }}…</p>
             </div>
         {% endfor %}
+        <div class="grid-col bp1-col-one-third">
+          <div style="padding: 2em 2em 0; border: 1px solid #ddd; background: white">
+            <p >Looking for more? have a look into the <a href="/page2" title="Go to archives">archive</a>.</p>
+          </div>
+        </div>
     </div>
+
 
     <div class="grid-wrap">
       <div class="grid-col isolated">
@@ -121,3 +129,38 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
         <p>Would you like to get more information about me? just have a look at my probably outdated <a title="who has an up-to-date cv? no one!" href="resume_ignacio_palomo_duarte.pdf" onClick="trackOutboundLink(this, 'Outbound Links', this.href); return false;">curriculum vitae</a> or drop me a line via <a href="mailto:ignacio.palomo.duarte.removethisspamline@gmail.com" onClick="trackOutboundLink(this, 'Outbound Links', this.href); return false;">email</a>. Cheers!</p>
       </div>
     </div>
+
+    {% else %}
+
+    <header class="grid-wrap">
+      <div class="grid-col">
+        <h1><span class="hideme">Ignacio Palomo portfolio website</span><a title="Back to homepage" href="/"><img src="/3oheme_logo.png" alt="Logo for 3oheme website" title="3oheme"/></a></h1>
+        <h2 class="hero">Blog archive — posts</h2>
+      </div>
+    </header>
+
+    <div id="blog" class="smaller-text grid-wrap">
+        {% for post in paginator.posts %}
+            <div class="grid-col">
+                <p><a href="{{ post.url }}" title="link to blog post with title: {{ post.title }}"> {{ post.title }} </a> — {{ post.date | date_to_string }} — {{ post.excerpt }}…</p>
+            </div>
+        {% endfor %}
+    </div>
+
+      <div class="smaller-text grid-wrap">
+          <p style="text-align: center">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/" title="Previous Page">&laquo; Previous</a>
+        {% else %}
+        <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
+        {% endif %}
+      {% endif %}
+      
+      {% if paginator.next_page %} 
+      <a href="/page{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
+      {% endif %} 
+    </p>
+    </div>
+
+    {% endif %} 
