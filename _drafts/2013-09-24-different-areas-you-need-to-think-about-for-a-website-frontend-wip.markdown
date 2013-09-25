@@ -9,21 +9,16 @@ categories: blog
 
 <p><img class="full-width-image" src="/images/html5_web_areas.png" /></p>
 
-Today in the office I've been asked about how to be up-to-date in the user experience world, and I thought it'd be quite useful to post it here, so anyone can benefit from it :-)
+Hi guys!
 
-So here we are, the 12 most awesome blogs you should read, in no specific order:
+This is just a list I've created basically for myself, so I don't forget any scenario or issue when thinking about a frontend project, but I thought it'd be useful for any other frontend out there :-)
 
-* The famous and well-known [Alert box by Nielsen Norman Group](http://www.nngroup.com/articles).
-* An amazing live document about [User-centered design](https://www.gov.uk/service-manual/user-centered-design) from United Kingdom Government Service Design Manual.
-* [Quince](http://quince.infragistics.com/) — an UX patterns explorer.
-* [UXMyths](http://uxmyths.com/), as they say, you should build your website based on evidence, not false beliefs.
-* A nice and general overview about that UX design thing thanks to [UX apprentice](http://www.uxapprentice.com/)
-* The classic must: [A list apart](http://alistapart.com/) about webdev best practices, mostly frontend and UX.
-* [mediaqueri.es](http://mediaqueri.es/) — a curated selection of the best responsive websites
-* If you want to learn the whole web stack from the very beginning, you should try [HackDesign](http://hackdesign.org/), a sort-of online course based in blog posts, very easy to follow.
-* [Lukew articles](http://www.lukew.com/ff/) are interesting, nicely written and based on real data.
-* [Hacker news](https://news.ycombinator.com/) and [Design news](https://news.layervault.com/), for up-to-date stuff.
-* The beautiful and hipster [articles from IA](http://ia.net/blog).
-* Read [Brad Frost blog](http://bradfrostweb.com/blog/) and [follow him on twitter](https://twitter.com/brad_frost).
+Please feel free to add anything I've forgot in the comments, so I can update it.
 
-Would you add anyone else? 
+* **Reset** or **normalize** your default CSS .
+* **Grid system** — handmade, supporting different breakpoints or just tackling a fixed amount of columns across devices.
+* CSS3 **feature detection** libraries like [moderniz](http://modernizr.com/) or relying on [native detection](http://dev.opera.com/articles/view/native-css-feature-detection-via-the-supports-rule/).
+* CSS **preprocessor** — [SASS](http://sass-lang.com/) or [LESS](http://lesscss.org/).
+* How are you going to **organize your CS**S? [OOCSS](https://github.com/stubbornella/oocss/tree/master/oocss) or [SMACCS](http://smacss.com/).
+* **Responsive images solution** — while W3C is still refining the [picture element draft](http://picture.responsiveimages.org/), you should give a try to [picturefill](https://github.com/scottjehl/picturefill), the [clown car technique](http://coding.smashingmagazine.com/2013/06/02/clown-car-technique-solving-for-adaptive-images-in-responsive-web-design/) or use a [server side solution](http://www.hongkiat.com/blog/serving-responsive-images/).
+
