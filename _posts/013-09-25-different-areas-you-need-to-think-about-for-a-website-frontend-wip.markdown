@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Different areas you need to think about for a website frontend - [Work in progress]"
-date:   2013-09-24 11:48:00
-excerpt: "Today in the office I've been asked about how to be up-to-date in the user experience world, and"
+date:   2013-09-25 18:48:00
+excerpt: "Hi guys! This is just a list I've created basically for myself, so I"
 categories: blog
 
 ---
