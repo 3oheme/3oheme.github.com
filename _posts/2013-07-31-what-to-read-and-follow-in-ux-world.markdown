@@ -27,3 +27,7 @@ So here we are, the 12 most awesome blogs you should read, in no specific order:
 * Read [Brad Frost blog](http://bradfrostweb.com/blog/) and [follow him on twitter](https://twitter.com/brad_frost).
 
 Would you add anyone else? 
+
+**Updated from comments** 
+
+* [Boxes and Arrows](http://boxesandarrows.com/) — thanks to [@apnerve](https://twitter.com/apnerve) and [@abinashmohanty](https://twitter.com/abinashmohanty) for this one!
