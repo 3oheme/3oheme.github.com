@@ -17,6 +17,8 @@ So, here it is, my 2013 User Experience books:
 
 ---
 
+<p style="float: right; margin: 1em 0 1em 1em; width: 20%"><img class="full-width-image" src="/images/book_lean_ux.png" /></p>
+
 #### [Lean UX: Applying Lean Principles to Improve User Experience](http://shop.oreilly.com/product/0636920021827.do)
 
 A must-to read if you're working in a real lean and agile environment — or you're pondering implementing them. Lot's of RealWorld™ examples and updated, [Jeff Gothelf](https://twitter.com/jboogie) even writes about modern techniques like [live  style guides](http://3oheme.com/blog/2013/09/25/different-areas-you-need-to-think-about-for-a-website-frontend-wip.html#documenting_the_code).
@@ -25,11 +27,15 @@ I'm still reading it, but so far so good.
 
 ---
 
+<p style="float: right; margin: 1em 0 1em 1em; width: 20%"><img class="full-width-image" src="/images/book_information_dashboard.png" /></p>
+
 #### [Information Dashboard Design: Displaying Data for At-a-Glance Monitoring](http://www.amazon.co.uk/Information-Dashboard-Design-At-Glance/dp/1938377001)
 
 I bought this one after reading that [everyone who joins the Chartio team is sent their own copy of the book to go over before they start](http://chartio.com/blog/2013/08/informationdashboarddesign) — that's a good review, isn't? I didn't have much time to apply it to the [websites team build monitors](http://www.pinterest.com/twstudios/bestbuildlight/), but is in my list of things to do in 2014 (fingers crossed!)
 
 ---
+
+<p style="float: right; margin: 1em 0 1em 1em; width: 20%"><img class="full-width-image" src="/images/book_design_with_the_mind_in_mind.jpg" /></p>
 
 #### [Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Rules](http://www.amazon.co.uk/Simple-Guide-Understanding-Interface-Design/dp/012375030X)
 
@@ -38,6 +44,8 @@ This one sits in the category of "Books you should read from time to time" if yo
 A great book with a horrible cover (the texture really gives me goose bumps!)
 
 ---
+
+<p style="float: right; margin: 1em 0 1em 1em; width: 20%"><img class="full-width-image" src="/images/book_predictably_irrational.jpg" /></p>
 
 #### [Predictably Irrational: The Hidden Forces that Shape Our Decisions](http://en.wikipedia.org/wiki/Predictably_Irrational)
 
