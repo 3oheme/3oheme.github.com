@@ -61,11 +61,15 @@ Every single chapter is awesome, but I would really highlight the first four cha
 
 ---
 
+<p style="float: right; margin: 1em 0 1em 1em; width: 20%"><img class="full-width-image" src="/images/book_100_things.png" /></p>
+
 #### [100 Things Every Designer Needs to Know About People: What Makes Them Tick? (Voices That Matter)](http://www.amazon.co.uk/Things-Every-Designer-Needs-People/dp/0321767535)
 
 Another book about user behaviour. A good reference book, not great but with a very nice presentation layout — one hundred small chapters of two pages, explaining a small concept each time.
 
 ---
+
+<p style="float: right; margin: 1em 0 1em 1em; width: 20%"><img class="full-width-image" src="/images/book_just_enough_research.png" /></p>
 
 #### [A Book Apart, Just Enough Research](http://www.abookapart.com/products/just-enough-research)
 
@@ -74,6 +78,8 @@ Awesome and very aligned with Lean UX. As the title says, the book focuses in di
 One of the best chapters is also available to read for free — [Interviewing Humans](http://alistapart.com/article/interviewing-humans) in A List Apart.
 
 ---
+
+<p style="float: right; margin: 1em 0 1em 1em; width: 20%"><img class="full-width-image" src="/images/book_thinking_fast_and_slow.png" /></p>
 
 #### [Thinking, Fast and Slow by Daniel Kahneman](http://www.theguardian.com/books/2011/dec/13/thinking-fast-slow-daniel-kahneman)
 
@@ -86,6 +92,8 @@ The mind blowing part comes when, just using that very simple model, Daniel expl
 The book is a bit rough sometimes — quite deep, with some examples very USA related — but it really changes the way you see human behaviour, even yourself. 
 
 ---
+
+<p style="float: right; margin: 1em 0 1em 1em; width: 20%"><img class="full-width-image" src="/images/book_the_art_of_human_hacking.png" /></p>
 
 #### [Social Engineering, the art of human hacking](http://www.amazon.co.uk/Social-Engineering-Art-Human-Hacking/dp/0470639539)
 
