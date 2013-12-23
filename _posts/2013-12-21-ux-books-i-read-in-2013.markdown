@@ -97,7 +97,7 @@ The book is a bit rough sometimes — quite deep, with some examples very USA re
 
 #### [Social Engineering, the art of human hacking](http://www.amazon.co.uk/Social-Engineering-Art-Human-Hacking/dp/0470639539)
 
-I've just been having a glance over it, but it looks really interesting — not because I would ever use it for real social engineering, but to be able to detect and react against different persuation tactics and tools.
+I've just been having a glance over it, but it looks really interesting — not because I would ever use it for real social engineering, but to be able to detect and react against different persuation tactics and tools. This was the book that presented me the concept of [microgestures](http://en.wikipedia.org/wiki/Microexpression).
 
 ---
 
