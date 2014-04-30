@@ -30,3 +30,5 @@ And now, the data to back up this:
 [User Interface Engineering: The $300 Million Button](http://www.uie.com/articles/three_hund_million_button/) — how changing a button increased a site's annual revenues by $300 million.
 
 [Expedia case study](http://www.zdnet.com/expedia-on-how-one-extra-data-field-can-cost-12m-3040153863/) —  on how one extra data field can cost $12m.
+
+<p><img class="full-width-image" src="/images/conversion_rates_by_form_fields.png" alt="Graph showing that, the more fields, the less conversion rate" /></p>
