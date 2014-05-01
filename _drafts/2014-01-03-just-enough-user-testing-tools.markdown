@@ -34,8 +34,4 @@ I've even reccommend this app to people with no technological background, as a w
 
 ---
 
-Very easy prototyping tool from images, with support for desktop, mobile and tablet prototypes, highly recommended! — http://www.invisionapp.com/
-
----
-
-Sometimes you just need to 
+[InvisionApp](http://www.invisionapp.com/) Very easy prototyping tool from images, with support for desktop, mobile and tablet prototypes, highly recommended! 

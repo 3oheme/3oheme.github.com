@@ -4,3 +4,4 @@ description: 3oheme blog about design, UX, life and whatever
 url: http://3oheme.com
 title: Ignacio Palomo Duarte
 paginate: 8
+markdown: kramdown
