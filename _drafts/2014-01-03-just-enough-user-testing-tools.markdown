@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Just enough user testing free tools"
+title:  "Just enough free user testing tools"
 date:   2014-01-02 13:48:00
 excerpt: "CHANGEME"
 categories: blog
 
 ---
 
-<p><img class="full-width-image" src="/images/just_enough_user_testing" /></p>
+<p><img class="full-width-image" src="/images/just_enough_user_testing.jpg" /></p>
 
 Inspired by the great [just enough research](http://www.abookapart.com/products/just-enough-research) book from [Erika Hall](https://twitter.com/mulegirl), I decided that we should have exactly the same for user testing tools — Lean UX requires quick validation of ideas and prototypes, and the faster we find issues, the faster we can iterate towards a better solution.
 
@@ -26,7 +26,7 @@ Microtasks oriented, [PlunkApp](http://www.plunkapp.com/) is a very easy way to 
 
 [PopApp](https://popapp.in/) was one of the first tools to give anyone the possibility to quickly create prototypes. Draw a couple of screens on paper, take some pictures with your phone camera, add a bit of interaction and share your creation :-)
 
-I've even reccommend this app to people with no technological background, as a way to introduce them to the prototyping world. The fact that the whole tool is self-contained (you can achieve the whole thing just with your phone)
+I've even reccommend this app to people with no technological background, as a way to introduce them to the prototyping world. The fact that the whole tool is self-contained (you can achieve the whole thing just with your phone) and they can 'create working apps' will help them start hands-on and realise how the process is.
 
 --- 
 
