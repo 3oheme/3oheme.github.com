@@ -20,8 +20,8 @@ But, after reading the whole internet, you still don't know if you should use it
 
 So here I am, helping you with the final and definitive howto guide about whether you should use the hamburger icon or not.
 
-#It depends. Do some user testing. Every scenario is different.
+##It depends. Do some user testing. Every scenario is different.
 
-It's not the same if you are designing an app or a website, if your target are teenagers or adults, or if you are facebook or just a small and local business.
+It's not the same if you are designing an app or a website, if your target are teenagers or adults, or if you are Facebook or just a small and local business.
 
 Thanks, and please stop writing AbsoluteTruth™ posts.
