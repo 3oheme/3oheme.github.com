@@ -7,6 +7,8 @@ categories: blog
 
 ---
 
+<p><img class="full-width-image" src="/images/hamburger-icon-menu.png" /></p>
+
 Let's face it. You've been developing your awesome app for months, filled dribble with hundreds of photoshop comps and here comes the moment to decide if we should use a hamburger icon for your navigation interaction.
 
 But, after reading the whole internet, you still don't know if you should use it or not:
