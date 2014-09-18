@@ -27,7 +27,9 @@ Maybe her name doesn't ring a bell to you, but she's been a editor in [A list ap
 
 I'm glad you ask dude! It's a lovely little jewel (around 70 pages of real content) that does what it promises: the book explains from top to bottom everything you need to think about when developing a full content strategy, both as a consultant or as a internal worker.
 
-It's important to notice that this book doesn't cover any specifics about copy writing, story telling, information architecture or even defining business goals. 
+It's important to notice that this book doesn't cover any specifics about copy writing, story telling, information architecture or even defining business goals. But that's exactly what I like about it: it jumps directly to what's important for the topic.
+
+It would be very easy to start getting into different fields, but it is on track the whole time, showing useful checklist, tools or techniques always focusing on defining the everall strategy for content — whether it is a website or not.
 
 *— So... Shoud I read it?*
 
