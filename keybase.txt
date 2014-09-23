@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/3oheme
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://3oheme.com
+    * I am 3oheme (https://keybase.io/3oheme) on keybase.
+      * I have a public key with fingerprint E094 2A3C AD25 A955 0EAA  0DC0 41DA 5FC2 B65B F32B
+
+      To claim this, I am signing this object:
+
+      {
+            "body": {
+                      "key": {
+                                    "fingerprint": "e0942a3cad25a9550eaa0dc041da5fc2b65bf32b",
+                                                "host": "keybase.io",
+                                                            "key_id": "41da5fc2b65bf32b",
+                                                                        "uid": "6ff5bea138b6f3ea9cabf560c7835000",
+                                                                                    "username": "3oheme"
+                                                                                            },
+                                                                                                    "service": {
+                                                                                                                  "hostname": "3oheme.com",
+                                                                                                                              "protocol": "http:"
+                                                                                                                                      },
+                                                                                                                                              "type": "web_service_binding",
+                                                                                                                                                      "version": 1
+                                                                                                                                                          },
+                                                                                                                                                              "ctime": 1411474616,
+                                                                                                                                                                  "expire_in": 157680000,
+                                                                                                                                                                      "prev": "2404001a400da3d6e35aea49c67ae31edff02b6fcfa2543c7dafdcedf64c49bc",
+                                                                                                                                                                          "seqno": 2,
+                                                                                                                                                                              "tag": "signature"
+      }
+
+      with the aforementioned key, yielding the PGP signature:
+
+      -----BEGIN PGP MESSAGE-----
+      Version: Keybase OpenPGP v1.0.5
+      Comment: https://keybase.io/crypto
+
+      yMHdAnicbVFbSBRRGN5V07SEysJAinZKeki3M/fd1TRCDYPyRaJU2M6cObNO6s46
+      O7uriIRUSq6VXSwhfPAhsLu9pJmka5KWm1BEphKRIl3ABxMqQqMzUg9BL+fy/d/3
+      /f/HP5wca0myeu4VHh+1n/1uHRucD1iKbXJvHSVpci3lqqMq8MqlqF4P1n266jUo
+      F4WBk2Mgi6DM8NDJ8wBDCGQEOFqGvIIYSeAlhWUkKoMq1/ymgthI0I/tqkYw8nGr
+      MkH/ww+sFARF4SUMadYhCQqLoRNBSeEFgEQHywMATKIf615YhQmb1coxedRnUAQL
+      qgibE5uN/6nbkVZFdD5dMzSkVRK83DB8LlNm1PpMXghL7j8Obkn1yiQzEQSx7lc1
+      L+WiCRMZqmlJczTNiZxACxkUrvGpOnarJoMXBQcZD5htcJBYMhzgAKAhOWTIygJm
+      eYgh50SCCDFLY1lRAImvIAUyPMciUYaKjAgscIhzSogyM1V7NcrFkDGhh1j6VY8X
+      GgGdBB4aLIuzWJMs8atizK1ZkhLX/d1l5MpqS3PBcm2ef546cLn/pFgUTd7Ptoxn
+      PUyNNvQEixa/zcUtndKXZ1t74kLHGsJ9+Z3NeyNbzjxfPnIQVPRWXt1Y4viQfj6t
+      7bC0tDOQM3n/V9uLhZEZqTS2e/MDpX5g9N3LTttE19HbWcG+9i8xP3EZ7PhxcSEc
+      n/b42aZ2EF3ftJQ73eJ8FPvqo5j/hJoq9V3YHt42tMN+Z2oyQaksLM6unk4Il+7u
+      PnQpp+391uHpxNDYiTWCFS/ebZTS2dOTnw1Hdahg7tOtlA0TqZGviQG3jJpz92Q3
+      RsTrFTNNtoH+c9faBaPE3VrT8TrvTdXNp8Upu97uy5wtjI6k2zI71o7f+A3lqxTr
+      =+MlH
+      -----END PGP MESSAGE-----
+
+      And finally, I am proving ownership of this host by posting or
+      appending to this document.
+
+      View my publicly-auditable identity here: https://keybase.io/3oheme
+
+      ==================================================================
+
