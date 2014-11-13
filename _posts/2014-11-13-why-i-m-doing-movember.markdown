@@ -2,7 +2,7 @@
 layout: post
 title:  "Why I'm doing Movember"
 date:   2014-11-13 12:48:00
-excerpt: "We live in a male-centric society, where there's a massive oppresion against women — and, ironically, that also works as a boomerang effect"
+excerpt: "We live in a male-centric society, where there's a massive oppresion against women — and, ironically, that also works as a boomerang effect against"
 categories: blog
 
 ---
