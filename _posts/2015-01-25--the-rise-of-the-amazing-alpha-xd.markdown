@@ -23,6 +23,7 @@ Imagine the incredible endless possibilities! How awesome would it be!
 * And it doesn’t matter if you have a big user base that has been using it for years: your timeline presentation is wrong, you should fix it ASAP, and all your users will be as happy as a kid in a candy store.
 
 ---
+<br>
 
 Ok, enough sarcasm for today. I had to let off some steam.
 
