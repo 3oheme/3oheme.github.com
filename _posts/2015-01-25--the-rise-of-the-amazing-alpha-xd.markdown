@@ -21,7 +21,7 @@ Imagine the incredible endless possibilities! How awesome would it be!
 * Let’s get rid of that needless user testing! He has already done a redesign with hundreds of likes in dribbble and behance, so go and implement it, it will be a success!
 * Resources? What resources? Your website menu is misaligned a couple of pixels, mostly because you fool are as careless as shit, so leave what you’re doing and fix it.
 * And it doesn’t matter if you have a big user base that has been using it for years: your timeline presentation is wrong, you should fix it ASAP, and all your users will be as happy as a kid in a candy store.
-
+<br>
 ---
 <br>
 
