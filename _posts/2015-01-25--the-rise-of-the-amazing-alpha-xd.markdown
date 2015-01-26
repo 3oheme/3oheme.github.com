@@ -20,7 +20,7 @@ Imagine the incredible endless possibilities! How awesome would it be!
 * No more user research — it doesn’t matter if the project is targeting elderly people with no technological background, or your users are under stress, he knows we should go fully flat design, period.
 * Let’s get rid of that needless user testing! He has already done a redesign with hundreds of likes in dribbble and behance, so go and implement it, it will be a success!
 * Resources? What resources? Your website menu is misaligned a couple of pixels, mostly because you fool are as careless as shit, so leave what you’re doing and fix it.
-* And it doesn’t matter if you have a big user base that has been using it for years: [your timeline presentation is wrong](), you should fix it ASAP, and all your users will be as happy as a kid in a candy store.
+* And it doesn’t matter if you have a big user base that has been using it for years: your timeline presentation is wrong, you should fix it ASAP, and all your users will be as happy as a kid in a candy store.
 
 <br>
 
@@ -37,7 +37,7 @@ So here it is: behind every design, app or website there’s a story. There is a
 
 But, most important, there is people. And they deserve a little respect.
 
-So please, be kind before your next blog post. Thanks.
+So please, be kind and think twice before your next blog post. Thanks.
 
 > “Be Kind; Everyone You Meet is Fighting a Hard Battle”
 > 
