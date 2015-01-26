@@ -31,7 +31,7 @@ Ok, enough sarcasm for today. I had to let off some steam.
 
 I came with this rant after reading the amazing blog post [Your content feed is broken](https://medium.com/@tyrale/your-content-feed-is-broken-f8c6576077c2) — a visually stunning and well thought-out study about how most apps are displaying the timeline. I love the design thinking and process, but the last bit really annoyed me:
 
-<p><img class="full-width-image" src="/images/medium-post-your-content-feed-is-broken.png" /></p>
+<p><img class="full-width-image" title="Dear content providers, your feed is broken. You are asking your users to bounce back and forth over your content. Review the above gifs, then fix your blog, app or site. We will all thank you for it." src="/images/medium-post-your-content-feed-is-broken.png" /></p>
 
 So here it is: behind every design, app or website there’s a story. There is a cruel war, lots of stakeholders with different goals. There are tight deadlines, small budgets, slow servers. There’s a business model that probably you’re not aware of. A huge user base with [change aversion](https://www.gv.com/lib/change-aversion-why-users-hate-what-you-launched-and-what-to-do-about-it). Very few designers, with limitations and constraints, working across different projects. 
 
