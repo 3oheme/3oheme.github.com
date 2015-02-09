@@ -28,8 +28,23 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@boheme">
   <meta name="twitter:creator" content="@boheme">
-  <meta name="twitter:title" content="Ignacio Palomo Duarte | Portfolio and personal homepage">
-  <meta name="twitter:description" content="This is the homepage of Ignacio, a webdeveloper, UX and graphic designer working in ThoughtWorks - just come in and have a look at my portfolio or contact me.">
+
+  {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta property="og:site_name" content="{{ page.title }}"/>
+  {% else %}
+    <meta name="twitter:title" content="Ignacio Palomo Duarte | Portfolio and personal homepage">
+    <meta property="og:site_name" content="Ignacio Palomo Duarte | Portfolio and personal homepage"/>
+  {% endif %}
+
+  {% if page.excerpt %}
+    <meta name="twitter:description" content="{{ page.excerpt }}">
+    <meta property="og:description" content="{{ page.excerpt }}">
+  {% else %}
+    <meta name="twitter:description" content="{{ site.description }}"> 
+    <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
+
   <meta name="twitter:image" content="http://3oheme.com/website-screenshot.png">
 
 
