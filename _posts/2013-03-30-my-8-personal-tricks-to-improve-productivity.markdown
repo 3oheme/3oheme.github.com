@@ -31,6 +31,6 @@ And trying to be focused is when stuff starts getting interesting:
 * **Turn off your phone** — this is a no-brainer! or at least disable notifications.
 * Music is not your cup of tea? **Try different kinds of noise** — for example [white noise](http://simplynoise.com/) is great to get concentrated.
 * Noise is so hardcore? lets have some nature sounds to get the hell out of here! [naturesoundsforme](http://naturesoundsfor.me/) is a free webtool to get some cool thunderstorms, rain and other nature stuff.
-* Feeling lonely? get yourself into a **comfy coffee** with [coffitivity.com](coffitivity.com) and enjoy some real people background noise :-D
+* Feeling lonely? get yourself into a **comfy coffee** with [coffitivity.com](https://coffitivity.com/) and enjoy some real people background noise :-D
 
 That’s some of the tools I have in my bat-tool belt to do to get some shit done. Cheers!

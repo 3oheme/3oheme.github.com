@@ -31,4 +31,4 @@ Yeah! the second interesting topic someone raised was about **'How to deal with 
 
 ### Should I go to the next one?
 
-Sure! Please have a look at the [meetup UXLiverpool page](http://bit.ly/1cv8LtD), [follow them on twitter](@UXLiverpool ) and join us next time :-)
+Sure! Please have a look at the [meetup UXLiverpool page](http://bit.ly/1cv8LtD), [follow them on twitter](https://twitter.com/uxliverpool) and join us next time :-)
