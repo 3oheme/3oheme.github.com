@@ -2,12 +2,20 @@
 layout: default
 ---
 
-<header class="grid-wrap">
+    <header class="grid-wrap">
       <div class="grid-col">
-        <h1><span class="hideme">Ignacio Palomo portfolio website</span><a title="Back to homepage" href="/"><img src="/3oheme_logo.png" alt="Logo for 3oheme website" title="3oheme"/></a></h1>
-        <h2 class="hero">{{ page.title }}</h2>
+        <div class="header-line">
+          <h1><a title="Back to homepage" href="/">home</a></h1>
+        </div>
       </div>
     </header>
+
+    <div class="grid-wrap">
+      <div class="grid-col">
+        <h2 class="home-title centered">{{ page.title }}</h2>
+      </div>
+    </div>
+
 
 <div class="grid-wrap">
     <div class="grid-col post">
@@ -34,18 +42,11 @@ layout: default
 </div>
 
 <div class="grid-wrap">
-    <div class="grid-col isolated">
-        <div class="latest-profile">
+    <div class="grid-col">
+        <div class="isolated">
             
             <p>
-                <img class="profile-photo" alt="Ignacio close up photo" src="/ignacio-palomo-duarte-profile-photo.png" />
-                This is the personal blog of <a href="http://plus.google.com/106054710204445671158?rel=author" title="Google+ account of Ignacio Palomo">Ignacio Palomo Duarte</a> — 3oheme, a web developer, UX and designer working in ThoughtWorks.
-            </p>
-            <p>
-                If you're looking for portfolio and more information just have a look at the <a href="/" title="Go back to the homepage">homepage</a>.
-            </p>
-            
-            <p> And if you like this article maybe you can consider sharing it on <a title="Share {{ page.title }} on twitter" href="http://twitter.com/intent/tweet?url=http://3oheme.com{{ page.url }}&text={{ page.title }}&via=3oheme">twitter</a>, <a title="Share {{ page.title }} on facebook" href="http://facebook.com/sharer.php?u=http://3oheme.com{{ page.url }}">facebook</a> or <a title="Share {{ page.title }} on Google+" href="https://plus.google.com/share?url=http%3A%2F%2F3oheme.com{{ page.url }}"> Google+</a>.</p>
+                This is the personal blog of <a href="http://plus.google.com/106054710204445671158?rel=author" title="Google+ account of Ignacio Palomo">Ignacio Palomo Duarte</a>, a User experience consultant. If you're looking for portfolio and more information just have a look at the <a href="/" title="Go back to the homepage">homepage</a>, and if you like this article maybe you can consider sharing it on <a title="Share {{ page.title }} on twitter" href="http://twitter.com/intent/tweet?url=http://3oheme.com{{ page.url }}&text={{ page.title }}&via=3oheme">twitter</a>, <a title="Share {{ page.title }} on facebook" href="http://facebook.com/sharer.php?u=http://3oheme.com{{ page.url }}">facebook</a> or <a title="Share {{ page.title }} on Google+" href="https://plus.google.com/share?url=http%3A%2F%2F3oheme.com{{ page.url }}"> Google+</a>.</p>
         </div>
     </div>
 </div>

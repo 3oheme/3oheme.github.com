@@ -12,25 +12,49 @@
 ---------------------------------------*/
 body {
   margin: 0 auto;
-  font: 1em/1.8em 'Droid Serif', serif;
+  font: 18px/18px 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   max-width: 50em;
   color: #333;
-  background: url('../resources/debut_light.png'); }
+}
 
 .container {
   width: 90%;
   margin: 2em auto; }
 
 p {
-  margin: 0 0 1.74em 0;
-  }
+  margin: 0 0 24px 0;
+  line-height: 28px;
+}
+
+.home-title {
+  font-weight: 100;
+  font-size: 28px;
+  text-align: left;
+  margin: 65px 0 0px;
+  line-height: 1em;
+}
+
+.home-title.centered {
+  text-align: center;
+}
+
+.home-subtitle {
+  text-transform: uppercase;
+  font-size: 16px;
+  border-bottom: none;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 0 70px;
+}
+
 
 a {
   -webkit-transition: opacity 0.2s ease;
     -moz-transition: opacity 0.2s ease;
      -o-transition:  opacity 0.2s ease;
         transition: opacity 0.2s ease;
-  color: #00aeef; }
+  color: #75A7D8; }
 
 a:hover {
   opacity: 0.6;
@@ -38,11 +62,18 @@ a:hover {
 
 h1 {
   margin: 0;
+  text-align: left;
+  font-size: 24px;
 }
 
-h1 img {
-  width: 40%;
-  margin: 0 0 -2em;
+h1 a {
+  color: #333;
+}
+
+.header-line {
+  border-bottom: 1px solid #CBCBCB;
+  margin: 0 0 24px;
+  padding: 24px 0;
 }
 
 h2 {
@@ -52,9 +83,10 @@ h2 {
 }
 
 h3 {
-  border-bottom: 1px solid #666;
-  padding: 1em 0;
-  margin-bottom: 1.5em;
+  border-bottom: 1px solid #CBCBCB;
+  padding: 24px 0;
+  margin-bottom: 24px;
+  font-size: 24px;
 }
 
 ul li {
@@ -77,8 +109,12 @@ blockquote {
 }
 
 .footer {
-  border-top: 1px solid #666;
-  padding-top: 1em;
+  border-top: 1px solid #CBCBCB;
+  padding: 20px
+}
+
+.footer p {
+  text-align: center
 }
 
 .hero {
@@ -108,6 +144,10 @@ blockquote {
 .social-icons img:hover {
   opacity: 0.7;
 }
+
+.blog-archive {
+    margin-top: 30px;
+  }
 
 .hideme,
 .social-icons span {
@@ -166,6 +206,14 @@ a.before-and-after:hover {
   width: 100%;
 }
 
+ .isolated {
+    padding: 30px;
+    background: #F2F2F2;
+    margin-bottom: 40px;
+  }
+ .isolated p {
+    margin: 0
+  }
 
 /* -- Begin grids
 ------------------------------------------------------------- */
@@ -258,9 +306,26 @@ li.grid-col {
 ------------------------------------------------------------- */
 @media only screen and (min-width: 35em) {
 
-  .footer {
-    text-align: center;
-  }  
+  .blog-archives {
+    text-align: right;    
+  }
+ 
+  .home-title {
+  font-weight: 100;
+  font-size: 58px;
+  text-align: left;
+  margin: 125px 0 0px;
+  line-height: 1em;
+  }
+
+  .home-subtitle {
+  text-transform: uppercase;
+  font-size: 18px;
+  border-bottom: none;
+  letter-spacing: 4px;
+  margin: 0;
+  padding: 20px 0 70px;
+}
 
   .profile-photo {
    -webkit-transform:rotate(4deg);
@@ -274,45 +339,37 @@ li.grid-col {
   }
 
   body {
-    font-size: 1.1em }
+    font-size: 18px }
 
-  h1 {
-    text-align: center;
-  }
-
-  h1 img {
-    width: 20%;
-    margin: 0 auto -2.4em;
-  }
 
   h2 {
     text-align: center;
-    line-height: 1.4em;
-    font-size: 1.7em;
+    line-height: 18px;
+    font-size: 18px;
   }
 
-  h3.section-title {
-    text-align: center;
+  .blog-archive {
+    margin-top: 60px;
   }
 
   .isolated {
     max-width: 35em;
-    margin: 0 auto;
+    margin: 60px auto;
     float: none;
+    padding: 30px 60px
   }
 
   .post {
     max-width: 40em;
-    margin: 0 auto;
+    margin: 80px auto 0;
     float: none;
   }
 
   .smaller-text {
-    font-size: 0.8em;
-    line-height: 1.7em;
+    font-size: 14px;
+    line-height: 18px;
   }
 
-  
   .social-icons  {
     text-align: center
   }
@@ -321,9 +378,6 @@ li.grid-col {
     width: 2em;
     height: 2em;
   }
-
-  p {
-    text-shadow: 1px 0 1px #FFF }
 
   .bp1-col-full,
   .bp1-col-set-full .grid-col {
@@ -347,7 +401,7 @@ li.grid-col {
   .bp1-col-three-quarters {
     width: 75%; }
 
-  #blog .grid-col:nth-child(3n+1) {
+  #blog .grid-col:nth-child(2n+1) {
     clear: both;
   }
 
@@ -358,7 +412,9 @@ li.grid-col {
 @media only screen and (min-width: 43em) {
 
   body {
-    font-size: 1.2em }
+    font-size: 18px;
+    line-height: 28px;
+     }
 
   .bp2-col-full,
   .bp2-col-set-full .grid-col {
