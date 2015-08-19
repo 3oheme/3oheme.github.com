@@ -22,7 +22,7 @@ body {
   width: 90%;
   margin: 2em auto; }
 
-p {
+p, li {
   margin: 0 0 24px 0;
   line-height: 28px;
 }
@@ -157,6 +157,10 @@ blockquote {
   height: 0;
   display: inline-block;
   position: absolute;
+}
+
+.post {
+  margin-top: 40px;
 }
 
 .profile-photo {
