@@ -16,6 +16,7 @@ body {
   font-weight: 300;
   max-width: 50em;
   color: #333;
+  background: #EEE;
 }
 
 .container {
@@ -248,12 +249,22 @@ a.before-and-after:hover {
 
  .isolated {
     padding: 30px;
-    background: #F2F2F2;
+    background: #FAFAFA;
     margin-bottom: 40px;
   }
  .isolated p {
     margin: 0
   }
+
+.portfolio-item {
+    clear: both;
+    padding: 0 0 24px 0;
+    overflow: hidden;
+}
+
+.portfolio-item .grid-col:nth-child(2n+1) {
+    clear: both;
+}
 
 /* -- Begin grids
 ------------------------------------------------------------- */
@@ -345,6 +356,12 @@ li.grid-col {
 /* -- Breakpoint (.bp1)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 35em) {
+
+.portfolio-item {
+    clear: both;
+    padding: 24px 0;
+    overflow: hidden;
+}
 
 .header-line {
   padding: 24px 0;
