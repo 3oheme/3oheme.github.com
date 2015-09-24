@@ -74,6 +74,36 @@ h1 a {
   border-bottom: 1px solid #CBCBCB;
   margin: 0 0 24px;
   padding: 24px 0;
+  overflow: hidden
+}
+
+header h1 {
+    float: left;
+}
+
+.header-sections {
+    float: right;
+}
+
+.header-sections a {
+    margin-left: 2em;
+}
+
+header a {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 900;
+    color: #999;
+}
+
+header a.active {
+    color: #000;
+}
+
+header a:hover {
+    color: #75A7D8;
 }
 
 h2 {
@@ -326,7 +356,7 @@ li.grid-col {
   text-transform: uppercase;
   font-size: 18px;
   border-bottom: none;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   margin: 0;
   padding: 20px 0 70px;
 }
