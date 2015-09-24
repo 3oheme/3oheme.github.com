@@ -21,7 +21,7 @@ So, here it is, my 2013 User Experience books:
 
 #### [Lean UX: Applying Lean Principles to Improve User Experience](http://shop.oreilly.com/product/0636920021827.do)
 
-A must to read if you're working in a real lean and agile environment or you're pondering implementing them. Easy to read as it has lots of RealWorld™ examples. His author, [Jeff Gothelf](https://twitter.com/jboogie), even writes about modern techniques like [live  style guides](http://3oheme.com/blog/2013/09/25/different-areas-you-need-to-think-about-for-a-website-frontend-wip.html#documenting_the_code).
+A must to read if you're working in a real lean and agile environment or you're pondering implementing them. Easy to read as it has lots of RealWorld™ examples. His author, [Jeff Gothelf](https://twitter.com/jboogie), even writes about modern techniques like [live  style guides](http://palomoduarte.com/blog/2013/09/25/different-areas-you-need-to-think-about-for-a-website-frontend-wip.html#documenting_the_code).
 
 I'm still reading it, but so far so good.
 
