@@ -73,7 +73,7 @@ h1 a {
 .header-line {
   border-bottom: 1px solid #CBCBCB;
   margin: 0 0 24px;
-  padding: 24px 0;
+  padding: 0 0 24px 0;
   overflow: hidden
 }
 
@@ -82,11 +82,13 @@ header h1 {
 }
 
 .header-sections {
-    float: right;
+    float: left;
+    margin-top: 1em;
+    clear: both;
 }
 
 .header-sections a {
-    margin-left: 2em;
+    margin-right: 1em;
 }
 
 header a {
@@ -98,8 +100,12 @@ header a {
     color: #999;
 }
 
-header a.active {
+header h1 a {
     color: #000;
+}
+
+header a.active {
+    color: #75A7D8;
 }
 
 header a:hover {
@@ -339,6 +345,21 @@ li.grid-col {
 /* -- Breakpoint (.bp1)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 35em) {
+
+.header-line {
+  padding: 24px 0;
+}
+
+.header-sections {
+    float: right;
+    margin-top: 0;
+    clear: none;
+}
+
+.header-sections a {
+    margin-left: 1em;
+    margin-right: 0
+}
 
   .blog-archives {
     text-align: right;    
