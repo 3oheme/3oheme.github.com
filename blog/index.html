@@ -1,0 +1,43 @@
+---
+layout: default
+title: Ignacio Palomo Duarte portfolio
+excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
+---
+
+     <header class="grid-wrap">
+      <div class="grid-col">
+        <div class="header-line">
+          <h1><a title="Back to homepage" href="/">palomoduarte.com</a></h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid-wrap">
+      <div class="grid-col">
+        <h2 class="home-title">Blog archive</h2>
+      </div>
+    </div>
+
+    <div id="blog" class="grid-wrap blog-archive">
+        {% for post in paginator.posts %}
+            <div class="grid-col">
+                <p><a href="{{ post.url }}" title="link to blog post with title: {{ post.title }}"> {{ post.title }} </a> — {{ post.date | date_to_string }} — {{ post.excerpt }}…</p>
+            </div>
+        {% endfor %}
+    </div>
+
+      <div class="grid-wrap">
+          <p style="text-align: center">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/" title="Previous Page">&laquo; Previous</a>
+        {% else %}
+        <a href="/blog/{{ paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
+        {% endif %}
+      {% endif %}
+      
+      {% if paginator.next_page %} 
+      <a href="/blog/{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
+      {% endif %} 
+    </p>
+    </div>

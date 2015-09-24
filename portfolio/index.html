@@ -14,7 +14,7 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
 
     <div class="grid-wrap">
       <div class="grid-col">
-        <h2 class="home-title">Ignacio Palomo-Duarte</h2>
+        <h2 class="home-title">Portfolio</h2>
         <h3 class="home-subtitle">User experience consultant</h3>
       </div>
     </div>
@@ -33,20 +33,7 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
         <img src="images/ignacio_working_design_revamp.jpg" alt="Ignacio working on the ThoughtWorks brand and messaging revamp">
       </div>
     </div>
-    <h3 class="section-title">Latest blog entries</h3>
-   
-       <div id="blog" class="grid-wrap">
-        {% for post in site.posts limit: 6 %}
-            <div class="grid-col bp1-col-one-half">
-                <p><a href="{{ post.url }}" title="link to blog post with title: {{ post.title }}"> {{ post.title }} </a><br>{{ post.date | date_to_string }} — {{ post.excerpt }}…</p>
-            </div>
-        {% endfor %}
-        <div class="grid-col">
-          <div class="blog-archives">
-            <p >Looking for more? have a look into the <a href="/blog" title="Go to archives">archive</a>.</p>
-          </div>
-        </div>
-    </div>
+    
 
     <div class="grid-wrap">
       <div class="grid-col">

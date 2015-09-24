@@ -4,4 +4,5 @@ description: Blog about design, UX, life and whatever
 url: http://palomoduarte.com
 title: Ignacio Palomo Duarte
 paginate: 8
+paginate_path: "/blog/:num"
 markdown: kramdown
