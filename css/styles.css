@@ -262,8 +262,15 @@ a.before-and-after:hover {
     overflow: hidden;
 }
 
-.portfolio-item .grid-col:nth-child(2n+1) {
+.portfolio-item .grid-col.break {
     clear: both;
+}
+
+.portfolio-small {
+    font-size: 14px;
+    display: block;
+    line-height: 24px;
+    margin-top: 1em;
 }
 
 /* -- Begin grids
