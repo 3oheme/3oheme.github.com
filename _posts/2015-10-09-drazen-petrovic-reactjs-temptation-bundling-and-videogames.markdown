@@ -4,6 +4,7 @@ title:  "Dražen Petrović, ReactJS, temptation bundling and videogames"
 date:   2015-10-09 11:47:00
 excerpt: "Motivation. I suck at it, badly. You've probably never heard of Dražen Petrović. He was one of the"
 categories: blog
+metaimage: /images/drazen-petrovic.jpg
 
 ---
 

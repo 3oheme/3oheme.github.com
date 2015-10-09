@@ -38,9 +38,9 @@
     <meta property="og:description" content="{{ site.description }}">
   {% endif %}
 
-  {% if page.image %}
-    <meta name="twitter:image" content="http://palomoduarte.com/{{ page.image }}">
-    <meta property="og:image" content="http://palomoduarte.com/{{ page.image }}">
+  {% if page.metaimage %}
+    <meta name="twitter:image" content="http://palomoduarte.com{{ page.metaimage }}">
+    <meta property="og:image" content="http://palomoduarte.com{{ page.metaimage }}">
   {% else %}
     <meta name="twitter:image" content="http://palomoduarte.com/website-screenshot.png">
     <meta property="og:image" content="http://palomoduarte.com/website-screenshot.png">
