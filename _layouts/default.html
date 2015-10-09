@@ -38,7 +38,14 @@
     <meta property="og:description" content="{{ site.description }}">
   {% endif %}
 
-  <meta name="twitter:image" content="http://palomoduarte.com/website-screenshot.png">
+  {% if page.image %}
+    <meta name="twitter:image" content="http://palomoduarte.com/website-screenshot.png">
+    <meta property="og:image" content="http://palomoduarte.com/website-screenshot.png">
+  {% else %}
+    <meta name="twitter:image" content="http://palomoduarte.com/{{ page.image }}">
+    <meta property="og:image" content="http://palomoduarte.com/{{ page.image }}">
+  {% endif %}
+
   <meta name="google-site-verification" content="FlkNfywFY-VaRB_HnwFpYkMSWdRkM65RklK_Y6m1N-g" />
   <meta property="og:type" content="website" />
 
