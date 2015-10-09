@@ -2,14 +2,14 @@
 layout: post
 title:  "Dražen Petrović, ReactJS, temptation bundling and videogames"
 date:   2015-10-05 23:48:00
-excerpt: "..."
+excerpt: "Motivation. I suck at it, badly. You've probably never heard of Dražen Petrović. He was one of the"
 categories: blog
 
 ---
 
 Motivation. I suck at it, badly. 
 
-You've probably never heard of [Dražen Petrović](https://en.wikipedia.org/wiki/Dra%C5%BEen_Petrovi%C4%87). He was one of the few europeans to play in the NBA and probably the best shooter ever, but in words of Janez Drvaric, his previous coach, he was not talented. At all.
+You've probably never heard of [Dražen Petrović](https://en.wikipedia.org/wiki/Dra%C5%BEen_Petrovi%C4%87). He was one of the first europeans to play in the NBA and [probably the best shooter ever](https://www.youtube.com/watch?v=0EUo5p6D990), but in words of Janez Drvaric, his previous coach, he was not talented. At all.
 
 So how did he manage to become one of the most successful shooters in NBA history? He shoot. Every single day. A lot. Janez Drvaric says:
 

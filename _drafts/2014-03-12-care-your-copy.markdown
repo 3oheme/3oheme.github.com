@@ -15,3 +15,5 @@ http://www.hemingwayapp.com/
 http://read-able.com/
 
 https://readability-score.com/
+
+https://www.wriber.com/
