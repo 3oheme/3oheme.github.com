@@ -26,7 +26,7 @@ I was doing pretty well for a couple of days, until I just found myself not read
 
 So I decided to try something new to motivate myself, a technique called **Temptation bundling**.
 
-As defined by [Katherine Milkman](http://knowledge.wharton.upenn.edu/article/researchers-used-hunger-games-encourage-healthier-choices/), temptation bundling:
+As defined by Katherine Milkman, author of the paper [Holding the Hunger Games Hostage at the Gym:vAn Evaluation of Temptation Bundling](http://opim.wharton.upenn.edu/~kmilkman/2013_Mgmt_Sci.pdf), temptation bundling:
 
 > “involves coupling instantly gratifying ‘want’ activities with engagement in a ‘should behavior’ that provides long-term benefits but requires the exertion of willpower”
 
@@ -42,3 +42,13 @@ So I've been developing [Reactclicker](https://github.com/3oheme/reactclicker) f
 And today **I'm 29 commits closer to achieve my goal**, I've learnt about npm, tap and hold interaction patterns in mobile, .gitignore, todo lists in markdown, HTML5 and localstorage while having fun.
 
 This may not work for you, and you probably should find a bundle that suits your needs, but you should definitely give it a try. Because not everyone is like Dražen Petrović.
+<br>
+
+---
+<br>
+
+Learn more about temptation bundling:
+
+* The best one: a podcast from the amazing guys from freakonomics — [When Willpower Isn’t Enough](http://freakonomics.com/2015/03/13/when-willpower-isnt-enough-a-new-freakonomics-radio-podcast/)
+* Lifehacker post — [How to Use Your Temptations to Build Better Habits](http://lifehacker.com/how-to-use-your-temptations-to-build-better-habits-1693477668)
+* Wharton, University of Pennsylvania — [Using ‘The Hunger Games’ to Encourage Healthier Choices](http://knowledge.wharton.upenn.edu/article/researchers-used-hunger-games-encourage-healthier-choices/)
