@@ -22,9 +22,9 @@ Every single day, he found the courage and motivation to push himself a bit more
 
 Why am I telling you this? Well, recently I decided to improve my Javascript skills. You know, using it the proper way. I have lots of experience with HTML, CSS and jQuery, but I've never had the opportunity to deal with any major Javascript framework, so I thought I'd better start learning some proper Javascript. I got a copy of [Javascript, the Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742), one of the best books about the subject, and started reading it.
 
-I was doing pretty well for a couple of days, until I just found myself not reading it anymore. It turns out I'm not Dražen Petrović.
+I was doing pretty well for a couple of days, until I just found myself not reading it anymore. I stopped reading it without being aware of it. It turns out I'm not Dražen Petrović.
 
-So I decided to try something new to motivate myself, a technique called **Temptation bundling**.
+But hey! I was not going to give up. I know a couple of different tricks to deal with motivation, so I decided to try something new to motivate myself, a technique called **Temptation bundling**.
 
 As defined by Katherine Milkman, author of the paper [Holding the Hunger Games Hostage at the Gym:vAn Evaluation of Temptation Bundling](http://opim.wharton.upenn.edu/~kmilkman/2013_Mgmt_Sci.pdf), temptation bundling:
 
