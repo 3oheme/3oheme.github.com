@@ -42,10 +42,12 @@ So I've been developing [Reactclicker](https://github.com/3oheme/reactclicker) f
 And today **I'm 29 commits closer to achieve my goal**, I've learnt about npm, tap and hold interaction patterns in mobile, .gitignore, todo lists in markdown, HTML5 and localstorage while having fun.
 
 This may not work for you, and you probably should find a bundle that suits your needs, but you should definitely give it a try. Because not everyone is like Dražen Petrović.
+
 <br>
 
 ---
 <br>
+
 
 Learn more about temptation bundling:
 
