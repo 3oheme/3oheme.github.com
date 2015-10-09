@@ -141,7 +141,7 @@ a img:hover {
 blockquote {
   border-left: 1px solid #666;
   margin: 0;
-  padding: 0 0 0 2em;
+  padding: 0 0 0 1em;
   font-style: italic;
 }
 
@@ -370,6 +370,10 @@ li.grid-col {
 /* -- Breakpoint (.bp1)
 ------------------------------------------------------------- */
 @media only screen and (min-width: 35em) {
+
+blockquote {
+  padding: 0 0 0 2em;
+}
 
 .portfolio-item {
     clear: both;
