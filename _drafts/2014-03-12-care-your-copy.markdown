@@ -17,3 +17,5 @@ http://read-able.com/
 https://readability-score.com/
 
 https://www.wriber.com/
+
+http://www.thewriter.com/what-we-think/readability-checker/
