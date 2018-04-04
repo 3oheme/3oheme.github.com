@@ -7,75 +7,78 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
     {% include header.html %}
 
     <div class="grid-wrap">
-      <div class="grid-col">
-        <h2 class="home-title">Ignacio Palomo-Duarte</h2>
-        <h3 class="home-subtitle">User experience consultant</h3>
-      </div>
+        <div class="grid-col">
+            <h2 class="home-title">Ignacio Palomo-Duarte</h2>
+            <h3 class="home-subtitle">User experience consultant</h3>
+        </div>
     </div>
 
     <div class="grid-wrap">
-      <div class="grid-col bp1-col-one-half">
-          <p>Hi there! Nice to meet you. I'm Ignacio, one of those User Experience designers that also have a Computer Science BsC — that allows me to have a deeper and holistic view of the whole project I'm involved with. I really enjoy projects where continuous integration and delivery are at the core of the team, because that allows very quick iterations with the full cycle of release, measure and learn.</p>
-      </div>
-      <div class="grid-col bp1-col-one-half">
-          <p>Currently working in <a href="https://www.spotahome.com/" title="Spotahome, The easiest way to find and book your mid to long-term housing">Spotahome</a>, I've been working within or in projects with ThoughtWorks, The Cooperative, Unicef, eDreams, United Nations, McDonalds, Cruz Roja Española or Asociación Española de Pediatría. I love dealing with frontend engineering best practices, user experience, research, usability, branding and messaging or user testing.</p>
-      </div>
+        <div class="grid-col bp1-col-one-half">
+            <p>Hi there! Nice to meet you. I'm Ignacio, one of those User Experience designers that also have a Computer Science BsC — that allows me to have a deeper and holistic view of the whole project I'm involved with. I really enjoy projects where continuous
+                integration and delivery are at the core of the team, because that allows very quick iterations with the full cycle of release, measure and learn.</p>
+        </div>
+        <div class="grid-col bp1-col-one-half">
+            <p>Currently working in <a href="https://www.spotahome.com/" title="Spotahome, The easiest way to find and book your mid to long-term housing">Spotahome</a>, I've been working within or in projects with ThoughtWorks, The Cooperative, Unicef, eDreams,
+                United Nations, McDonalds, Cruz Roja Española or Asociación Española de Pediatría. I love dealing with frontend engineering best practices, user experience, research, usability, branding and messaging or user testing.</p>
+        </div>
     </div>
 
     <div class="grid-wrap">
-      <div class="grid-col">
-        <img src="images/ignacio_working_design_revamp.jpg" alt="Ignacio working on the ThoughtWorks brand and messaging revamp">
-      </div>
+        <div class="grid-col">
+            <img src="images/ignacio_working_design_revamp.jpg" alt="Ignacio working on the ThoughtWorks brand and messaging revamp">
+        </div>
     </div>
 
 
     <h3 class="section-title">Portfolio</h3>
 
     <div class="grid-wrap">
-      <div class="grid-col bp1-col-one-half">
+        <div class="grid-col bp1-col-one-half">
             <p><a href="/portfolio#spotahome"><img src="/images/spotahome.jpg" /></a>
-             <span class="portfolio-small">Head of UX in ecommerce website, leading the User Experience department <a href="/portfolio#spotahome">Read more</a></span></p>
+                <span class="portfolio-small">Head of UX in ecommerce website, leading the User Experience department <a href="/portfolio#spotahome">Read more</a></span></p>
         </div>
         <div class="grid-col bp1-col-one-half">
-              <p><a href="/portfolio#thebighouse"><img src="/images/thebighouse.png" /></a>
-               <span class="portfolio-small">Senior consultant working in responsive and mobile-first transactional website redesign. <a href="/portfolio#thebighouse">Read more</a></span></p>
-          </div>
+            <p><a href="/portfolio#thebighouse"><img src="/images/thebighouse.png" /></a>
+                <span class="portfolio-small">Senior consultant working in responsive and mobile-first transactional website redesign. <a href="/portfolio#thebighouse">Read more</a></span></p>
+        </div>
     </div>
     <div class="grid-wrap">
-          <div class="grid-col bp1-col-one-half">
-              <p><a href="/portfolio#thoughtworks"><img src="/images/thoughtworks-logo.jpg" /></a>
-              <span class="portfolio-small">Senior consultant for corporate website development, responsive mobile–first retail website, branding, messaging and marketing strategy or frontend consultant. <a href="/portfolio#thoughtworks">Read more</a></span></p>
-          </div>
-          <div class="grid-col bp1-col-one-half">
-              <p><a href="/portfolio#drupal"><img src="/images/unicef-home.jpg" /></a>
+        <div class="grid-col bp1-col-one-half">
+            <p><a href="/portfolio#thoughtworks"><img src="/images/thoughtworks-logo.jpg" /></a>
+                <span class="portfolio-small">Senior consultant for corporate website development, responsive mobile–first retail website, branding, messaging and marketing strategy or frontend consultant. <a href="/portfolio#thoughtworks">Read more</a></span></p>
+        </div>
+        <div class="grid-col bp1-col-one-half">
+            <p><a href="/portfolio#drupal"><img src="/images/unicef-home.jpg" /></a>
                 <span class="portfolio-small">More than 30 different projects from Drupal 4.7 to Drupal 7 — theming, content types, module development, ecommerce websites, customizing external themes. <a href="/portfolio#drupal">Read more</a></span></p>
-          </div>
+        </div>
         <div class="grid-col">
-          <div class="blog-archives">
-            <p>Read about all projects in the <a href="/portfolio" title="Go to portfolio page">portfolio page</a>.</p>
-          </div>
+            <div class="blog-archives">
+                <p>Read about all projects in the <a href="/portfolio" title="Go to portfolio page">portfolio page</a>.</p>
+            </div>
         </div>
     </div>
 
     <h3 class="section-title">Latest blog entries</h3>
 
-       <div id="blog" class="grid-wrap">
+    <div id="blog" class="grid-wrap">
         {% for post in site.posts limit: 6 %}
-            <div class="grid-col bp1-col-one-half">
-                <p><a href="{{ post.url }}" title="link to blog post with title: {{ post.title }}"> {{ post.title }} </a><br>{{ post.date | date_to_string }} — {{ post.excerpt }}…</p>
-            </div>
+        <div class="grid-col bp1-col-one-half">
+            <p><a href="{{ post.url }}" title="link to blog post with title: {{ post.title }}"> {{ post.title }} </a>
+                <br>{{ post.date | date_to_string }} — {{ post.excerpt }}…</p>
+        </div>
         {% endfor %}
         <div class="grid-col">
-          <div class="blog-archives">
-            <p>Looking for more? have a look into the <a href="/blog" title="Go to archives">archive</a>.</p>
-          </div>
+            <div class="blog-archives">
+                <p>Looking for more? have a look into the <a href="/blog" title="Go to archives">archive</a>.</p>
+            </div>
         </div>
     </div>
 
     <div class="grid-wrap">
-      <div class="grid-col">
-        <div class="isolated">
-          <p>Would you like to get more information about me? just have a look at my probably outdated <a title="who has an up-to-date cv? no one!" href="resume_ignacio_palomo_duarte.pdf" onClick="trackOutboundLink(this, 'Outbound Links', this.href); return false;">curriculum vitae</a> or drop me a line via <a href="mailto:ignacio.removethisspamline@palomoduarte.com" onClick="trackOutboundLink(this, 'Outbound Links', this.href); return false;">email</a>. Cheers!</p>
+        <div class="grid-col">
+            <div class="isolated">
+                <p>Would you like to get more information about me? just have a look at my probably outdated <a title="who has an up-to-date cv? no one!" href="resume_ignacio_palomo_duarte.pdf" onClick="trackOutboundLink(this, 'Outbound Links', this.href); return false;">curriculum vitae</a>                or drop me a line via <a href="mailto:ignacio.removethisspamline@palomoduarte.com" onClick="trackOutboundLink(this, 'Outbound Links', this.href); return false;">email</a>. Cheers!</p>
+            </div>
         </div>
-      </div>
     </div>
