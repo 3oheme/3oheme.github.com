@@ -1,7 +1,7 @@
 name: Ignacio Palomo Duarte
 highlighter: rouge
 description: Blog about design, UX, life and whatever
-url: http://palomoduarte.com
+url: https://palomoduarte.com
 title: Ignacio Palomo Duarte
 paginate: 8
 paginate_path: "/blog/:num"
