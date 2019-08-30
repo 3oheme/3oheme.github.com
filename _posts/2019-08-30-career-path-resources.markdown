@@ -7,9 +7,9 @@ categories: blog
 
 ---
 
-Just a compilation of all the resources and examples I've used to create Spotahome Career path
+Just a compilation of all the resources and examples I've used to create the Spotahome Product Designer Career path:
 * [Design Team Levels Framework (Originally for Snagajob Design)](https://docs.google.com/spreadsheets/d/1XkxfDZ9Nr43ZDmYbrr8WXVaLBsh4AKlWgSJshq1mepY/edit#gid=288553197) 
-* [Designing a Design Team (Flexport)](https://medium.com/flexport-design/designing-a-design-team-a9a066bc48a5=
+* [Designing a Design Team (Flexport)](https://medium.com/flexport-design/designing-a-design-team-a9a066bc48a5)
 * [Designing a Better Career Path for Designers](https://medium.com/elegant-tools/designing-a-better-career-path-for-designers-872b0aa50b5b)
 * [Career progression for Product Designers & User Researchers at Lyst](https://medium.com/designing-lyst/career-progression-for-product-designers-user-researchers-at-lyst-49c0c6cb9003)
 * [Product Design Roles v3](https://medium.com/buzzfeed-design/product-design-roles-v3-c97a061a4b33)
