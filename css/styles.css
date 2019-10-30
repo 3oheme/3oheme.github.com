@@ -54,7 +54,7 @@ a {
   -webkit-transition: all 0.3s ease;
      -moz-transition: all 0.3s ease;
        -o-transition: all 0.3s ease;
-          transition: all 0.3s ease:
+          transition: all 0.3s ease;
   color: #2f6eab;
   box-shadow: 0 -1px 0 #75A7D8 inset;
   text-decoration: none;
