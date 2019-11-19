@@ -11,7 +11,14 @@ After this [hilarious retweet from Jared Spool](https://twitter.com/jmspool/stat
 
 So, in case you need more reasons to break some design conventions for the user, here you have some more examples:
 
-<div class="full-width-100-percent"><img class="full-width-image" src="/images/consistency-1.jpg" /></div>
+<div class="full-width-100-percent">
+  <img class="full-width-image" src="/images/consistency-1.jpg" />
+  <img class="full-width-image" src="/images/consistency-2.jpg" />
+  <img class="full-width-image" src="/images/consistency-3.jpg" />
+  <img class="full-width-image" src="/images/consistency-4.jpg" />
+  <img class="full-width-image" src="/images/consistency-5.jpg" />
+  <img class="full-width-image" src="/images/consistency-6.jpg" />
+</div>
 
 <style>
 .full-width-100-percent {
