@@ -21,17 +21,21 @@ So, in case you need more reasons to break some design conventions for the user,
 </div>
 
 <style>
-  @media only screen and (min-width: 24em) {
+  @media only screen and (min-width: 500px) {
     .consistency-gallery {
       display: grid;
       grid-gap: 10px;
       grid-template-columns: 50% 50%;
     } 
+    .consistency-gallery--item {
+      margin-bottom: 0px
+    }
   }
   .consistency-gallery--item {
     object-fit: cover;
     width: 100%;
     height: 300px;
     border-radius: 4px;
+    margin-bottom: 10px
   }
 </style>
