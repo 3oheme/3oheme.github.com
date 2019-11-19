@@ -20,6 +20,10 @@ So, in case you need more reasons to break some design conventions for the user,
   <img class="consistency-gallery--item" src="/images/consistency-6.jpg" />
 </div>
 
+<a href="http://assets.imgix.net/dog.png?w=1600">
+  <img src="/images/consistency-1.jpg" />
+</a>
+
 <style>
   @media only screen and (min-width: 500px) {
     .consistency-gallery {
@@ -39,3 +43,9 @@ So, in case you need more reasons to break some design conventions for the user,
     margin-bottom: 10px
   }
 </style>
+
+<script type="text/javascript" 
+    src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+<script type="text/javascript">
+  new Luminous(document.querySelector("a"));
+</script>
