@@ -20,11 +20,18 @@ So, in case you need more reasons to break some design conventions for the user,
   <img class="consistency-gallery--item" src="/images/consistency-6.jpg" />
 </div>
 
-<a href="http://assets.imgix.net/dog.png?w=1600">
+<a href="/images/consistency-1.jpg">
   <img src="/images/consistency-1.jpg" />
 </a>
 
 <style>
+  .consistency-gallery--item {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    margin-bottom: 10px
+  }
   @media only screen and (min-width: 500px) {
     .consistency-gallery {
       display: grid;
@@ -34,13 +41,6 @@ So, in case you need more reasons to break some design conventions for the user,
     .consistency-gallery--item {
       margin-bottom: 0px
     }
-  }
-  .consistency-gallery--item {
-    object-fit: cover;
-    width: 100%;
-    height: 300px;
-    border-radius: 4px;
-    margin-bottom: 10px
   }
 </style>
 
