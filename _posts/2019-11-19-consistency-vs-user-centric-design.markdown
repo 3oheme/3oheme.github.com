@@ -21,6 +21,17 @@ So, in case you need more reasons to break some design conventions for the user,
 </div>
 
 <style>
-  .consistency-gallery {} 
-  .consistency-gallery--item {}
+  @media only screen and (min-width: 24em) {
+    .consistency-gallery {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 50% 50%;
+    } 
+  }
+  .consistency-gallery--item {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+  }
 </style>
