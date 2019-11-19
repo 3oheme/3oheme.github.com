@@ -11,23 +11,16 @@ After this [hilarious retweet from Jared Spool](https://twitter.com/jmspool/stat
 
 So, in case you need more reasons to break some design conventions for the user, here you have some more examples:
 
-<div class="full-width-100-percent">
-  <img class="full-width-image" src="/images/consistency-1.jpg" />
-  <img class="full-width-image" src="/images/consistency-2.jpg" />
-  <img class="full-width-image" src="/images/consistency-3.jpg" />
-  <img class="full-width-image" src="/images/consistency-4.jpg" />
-  <img class="full-width-image" src="/images/consistency-5.jpg" />
-  <img class="full-width-image" src="/images/consistency-6.jpg" />
+<div class="consistency-gallery">
+  <img class="consistency-gallery--item" src="/images/consistency-1.jpg" />
+  <img class="consistency-gallery--item" src="/images/consistency-2.jpg" />
+  <img class="consistency-gallery--item" src="/images/consistency-3.jpg" />
+  <img class="consistency-gallery--item" src="/images/consistency-4.jpg" />
+  <img class="consistency-gallery--item" src="/images/consistency-5.jpg" />
+  <img class="consistency-gallery--item" src="/images/consistency-6.jpg" />
 </div>
 
 <style>
-.full-width-100-percent {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  background: red;
-}
+  .consistency-gallery {} 
+  .consistency-gallery--item {}
 </style>
