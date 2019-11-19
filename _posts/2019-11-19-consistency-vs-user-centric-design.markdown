@@ -20,10 +20,6 @@ So, in case you need more reasons to break some design conventions for the user,
   <img class="consistency-gallery--item" src="/images/consistency-6.jpg" />
 </div>
 
-<a href="/images/consistency-1.jpg">
-  <img src="/images/consistency-1.jpg" />
-</a>
-
 <style>
   .consistency-gallery--item {
     object-fit: cover;
@@ -43,9 +39,3 @@ So, in case you need more reasons to break some design conventions for the user,
     }
   }
 </style>
-
-<script type="text/javascript" 
-    src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
-<script type="text/javascript">
-  new Luminous(document.querySelector("a"));
-</script>
