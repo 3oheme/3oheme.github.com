@@ -2,15 +2,13 @@
 layout: post
 title:  "What I got from the UX fighters 2016 conference"
 date:   2015-10-30 11:47:00
-excerpt: ""
+excerpt: "I am a probably-too-much pragmatic person. That's why, every time I go to a conference, I cannot stop focusing on what can I learn and apply to my every day life. I..."
 categories: blog
 metaimage: /images/drazen-petrovic.jpg
 
 ---
 
-I am a probably-too-much pragmatic person. That's why, every time I go to a conference, I cannot stop focusing on what can I learn and apply to my every day life. I'
-
-Here's my review of the UX Fighters 2016. I prefer to give it a couple of weeks, so the distance helps having a more objective point of view, and skup all those logistic errors that really screwed me on the first day.
+I am a probably-too-much pragmatic person. That's why, every time I go to a conference, I cannot stop focusing on what can I learn and apply to my every day life. So, here's my review of the UX Fighters 2016. I prefer to give it a couple of weeks, so the distance helps having a more objective point of view, and skup all those logistic errors that really screwed me on the first day.
 
 What I got from the UX Fighters 2016 is:
 
