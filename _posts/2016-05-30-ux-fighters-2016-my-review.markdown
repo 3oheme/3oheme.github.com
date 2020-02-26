@@ -33,20 +33,20 @@ El supermercado del futuro: "If you come with data let's talk about the data. If
 
 **Where are the limits of humor?** from Carlos Areces was just brilliant. Sadly I didn't take any notes.
 
-"Make a briefing, even if you're your unique user" from the Comics and user experience talk.
+"Make a briefing, even if you're your unique user" from the **Comics and user experience** talk.
 
-Open data discussion: "You know that phrase of 'Data speaks for itself'? It's a lie" as not everyone is able to extract information from data.
+**Open data** discussion: "You know that phrase of 'Data speaks for itself'? It's a lie" as not everyone is able to extract information from data.
 
 The engaging and eye-opening **Discovery Program** talk from Pere Rosales taught me a word (that's also a new learning vector for me): [Basadur](http://www.basadur.com/).
 
-Experiencias Efímeras from [Alejandro Herrera](https://twitter.com/alejndroherrera) showed me that maybe I was completely wrong about vertical video: If the video is going to be consumed in vertical format, it'd may be a good idea to record it vertically (and with things like periscope or facebook live, it's also easier to record it vertically)
+**Experiencias Efímeras** from [Alejandro Herrera](https://twitter.com/alejndroherrera) showed me that maybe I was completely wrong about vertical video: If the video is going to be consumed in vertical format, it'd may be a good idea to record it vertically (and with things like periscope or facebook live, it's also easier to record it vertically)
 
 This one sentence from [Juan Moyano](https://twitter.com/moyanoux) **We can be heroes** talk is simply gold: "The more people understanding a problem, the better. The less people implementing a solution, the better".
 
-[Marcos Viñuela García](https://www.linkedin.com/in/marcos-vi%C3%B1uela-garc%C3%ADa-718681b) taught me the startup triangle: [buscar triangulo] Personal Ego, self-realisation and ambition.
+[Marcos Viñuela García](https://www.linkedin.com/in/marcos-vi%C3%B1uela-garc%C3%ADa-718681b) taught me the **startup triangle**: [buscar triangulo] Personal Ego, self-realisation and ambition.
 
 <p><img class="full-width-image" src="/images/startup-triangle.jpg" />
 <span class="smaller-text">Photo credits to <a href="http://www.auroramelchor.com/sketchnoting-collection/2016/5/18/experience-fighters-madrid-2016">Aurora Melchor</a></span></p>
 
-Fuerzas Vivas presentation from [Gonzalo Madrid](https://www.linkedin.com/in/gonzalo-madrid-g%C3%B3mez-285b3024) and [Toni Garrido](https://twitter.com/garridocoronado): "Common sense is disruptive" (as a force against company routine and doing the same things we've been doing because it's what we've been doing.)
+**Fuerzas Vivas** presentation from [Gonzalo Madrid](https://www.linkedin.com/in/gonzalo-madrid-g%C3%B3mez-285b3024) and [Toni Garrido](https://twitter.com/garridocoronado): "Common sense is disruptive" (as a force against company routine and doing the same things we've been doing because it's what we've been doing.)
 
