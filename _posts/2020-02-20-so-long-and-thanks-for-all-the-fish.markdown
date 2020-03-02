@@ -26,7 +26,7 @@ I'm so lucky to have made so amazing good friends in this adventure.
             <source srcset=/images/spotahome-life.jpg" media="(min-width: 600px)">
             <img
                 src="/images/spotahome-life--mobile.jpg"
-                alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome" />
+                alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome">
         </picure>
     </div>
 </p>
