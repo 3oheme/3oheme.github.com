@@ -33,7 +33,8 @@ I'm so lucky to have made so amazing good friends in this adventure.
     </div>
 </p>
 
----
+
+<br>
 <br>
 Now I will take some time off to enjoy the <a title="Link to a picture of my son in my instagram feed" href="https://www.instagram.com/p/B5lIgljoDP7/">first steps of this little cutie</a>, try a couple of pet projects and think about what's next.
 
