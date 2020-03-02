@@ -22,12 +22,14 @@ I'm so lucky to have made so amazing good friends in this adventure.
 
 <p>
     <div class="full-bleed-image">
-        <picure>
-            <source srcset=/images/spotahome-life.jpg" media="(min-width: 600px)">
-            <img
-                src="/images/spotahome-life--mobile.jpg"
-                alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome">
-        </picure>
+        <img
+             class="mobile-only"
+             src="/images/spotahome-life.jpg"
+             alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome">
+        <img
+             class="desktop-only"
+             src="/images/spotahome-life.jpg"
+             alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome">   
     </div>
 </p>
 
