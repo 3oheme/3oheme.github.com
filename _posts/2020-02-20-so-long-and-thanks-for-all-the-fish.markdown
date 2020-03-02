@@ -24,7 +24,7 @@ I'm so lucky to have made so amazing good friends in this adventure.
     <div class="full-bleed-image">
         <img
              class="mobile-only"
-             src="/images/spotahome-life.jpg"
+             src="/images/spotahome-life--mobile.jpg"
              alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome">
         <img
              class="desktop-only"
