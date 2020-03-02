@@ -21,18 +21,18 @@ I'm so lucky to have made so amazing good friends in this adventure.
 <br>
 
 <p>
-    <img
-        class="full-width-image"
-        srcset="/images/spotahome-life--mobile.jpg 480w,
-             /images/spotahome-life.jpg 800w"
-        sizes="(max-width: 600px) 480px,
-            800px"
-        src="/images/spotahome-life.jpg"
-        alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome" />
+    <div class="full-bleed-image">
+        <picure>
+            <source srcset=/images/spotahome-life.jpg" media="(min-width: 600px)">
+            <img
+                src="/images/spotahome-life--mobile.jpg"
+                alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome" />
+        </picure>
+    </div>
 </p>
 
 ---
 <br>
-Now I will take some time off to enjoy the <a title="Link to a picture of my son in my instagram feed" href="https://www.instagram.com/p/B5lIgljoDP7/">first steps of my little love</a>, try a couple of pet projects and think about what's next.
+Now I will take some time off to enjoy the <a title="Link to a picture of my son in my instagram feed" href="https://www.instagram.com/p/B5lIgljoDP7/">first steps of this little cutie</a>, try a couple of pet projects and think about what's next.
 
 Cheers!
