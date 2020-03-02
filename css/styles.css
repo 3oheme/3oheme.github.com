@@ -254,9 +254,11 @@ a.before-and-after:hover {
 }
 
  .isolated {
-    padding: 30px;
+    padding: 80px 40px 40px;
     background: #FCFCFC;
     margin-bottom: 40px;
+    border-top: 1px solid #CBCBCB;
+    margin-top: 80px;
   }
  .isolated p {
     margin: 0
@@ -454,13 +456,6 @@ blockquote {
 
   .blog-archive {
     margin-top: 60px;
-  }
-
-  .isolated {
-    max-width: 35em;
-    margin: 60px auto;
-    float: none;
-    padding: 30px 60px
   }
 
   .post {
