@@ -23,8 +23,8 @@ I'm so lucky to have made so amazing good friends in this adventure.
 <p>
     <img
         class="full-width-image"
-        srcset="spotahome-life--mobile.jpg 480w,
-             spotahome-life.jpg 800w"
+        srcset="/images/spotahome-life--mobile.jpg 480w,
+             /images/spotahome-life.jpg 800w"
         sizes="(max-width: 600px) 480px,
             800px"
         src="/images/spotahome-life.jpg"
