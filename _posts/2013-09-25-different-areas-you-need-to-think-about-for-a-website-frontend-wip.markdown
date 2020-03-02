@@ -1,5 +1,5 @@
 ---
-layout: wide-post
+layout: post
 title:  "Different areas you need to think about for a website frontend - [Work in progress]"
 date:   2013-09-25 18:48:00
 excerpt: "Hi guys! This is just a list I've created basically for myself, so I"
