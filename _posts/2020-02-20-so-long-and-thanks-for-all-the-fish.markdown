@@ -37,6 +37,6 @@ I'm so lucky to have made some great friends in this adventure.
 
 <br>
 <br>
-And what's next? Well, I will take some time off to enjoy the <a title="Link to a picture of my son in my instagram feed" href="https://www.instagram.com/p/B5lIgljoDP7/">first steps of this little cutie</a>, try a couple of pet projects and think about what I'd like to do in the future. Not an easy task, but I will take it slowly.
+And what's next? Well, I will take some time off to enjoy the <a title="Link to a picture of my son in my instagram feed" href="https://www.instagram.com/p/B5lIgljoDP7/">first steps of this little cutie</a>, try a couple of pet projects and think about what I'd like to do in the future. Not an easy task, but I will take it slowly and enjoy it.
 
-Thank you all, and see you soon!
+Thank you all, and see you soon.
