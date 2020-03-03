@@ -2,14 +2,14 @@
 layout: post
 title:  "So long, and thanks for all the fish"
 date:   2020-02-20 11:01:28
-excerpt: "Every journey comes to an end. After more than four years working with Spotahome, now it's time to "
+excerpt: "Every journey comes to an end. After more than four years working for Spotahome, now it's time to "
 categories: blog
 
 ---
 
 Every journey comes to an end.
 
-After more than five years working with [Spotahome](https://www.spotahome.com/), now it's time to look for the next gig. 
+After more than five years working for [Spotahome](https://www.spotahome.com/), now it's time to look for the next gig. 
 
 I wanted to wait a bit to write about this, because I really needed to slow down and reflect about my time in the company, and I must say **working with Spotahome has been such an amazing journey** – I'm so grateful to this huge opportunity to progress as a professional:
 * I’ve helped the company grow from a headcount of 30 to more than 300 employees, from an angel round of €225K to a $40M Series-B round and from the most _move fast and break things_ to achieving the best quality in our processes.
