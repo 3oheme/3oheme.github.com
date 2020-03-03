@@ -254,10 +254,9 @@ a.before-and-after:hover {
 }
 
  .isolated {
-    padding: 80px 40px 40px;
-    background: #FCFCFC;
+    padding: 40px 40px;
+    background: #f0f2f2;
     margin-bottom: 40px;
-    border-top: 1px solid #CBCBCB;
     margin-top: 80px;
   }
  .isolated p {
