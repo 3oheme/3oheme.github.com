@@ -9,14 +9,14 @@ categories: blog
 
 Every journey comes to an end.
 
-After more than five years working with [Spotahome](https://www.spotahome.com/), now it's time to look for the next gig.
+After more than five years working with [Spotahome](https://www.spotahome.com/), now it's time to look for the next gig. 
 
-It's been such an amazing journey – I'm so grateful to this huge opportunity to progress as a professional:
-* I’ve helped the company grow from a headcount of 30 to more than 300 employees, from an angel round of €225K to a $40M Series-B round.
-* I've played tons of different roles: frontend developer, graphic designer, Head of User Experience, UI designer, researcher, product designer...
+I wanted to wait a bit of time to write about this, because I really needed to slow down and reflect about my career. And I must say working with Spotahome has been such an amazing journey – I'm so grateful to this huge opportunity to progress as a professional:
+* I’ve helped the company grow from a headcount of 30 to more than 300 employees, from an angel round of €225K to a $40M Series-B round and from the most _move fast and break things_ to achieving the best quality in our processes.
+* I've played tons of different roles: frontend developer, graphic designer, Head of User Experience, UI designer, project manager researcher, product designer...
 * I've organised and facilitated more workshops than I can remember 😅
-* Designed hundreds of screens, features, UI components, flows and prototypes.
-* And the most important bit, I've had the opportunity to work and build a friendship with a mind-blowing bunch of wonderful and talented people. Every day I've been able to learn from them, laugh, have fun and build the best real estate marketplace.
+* Designed hundreds of screens, features, UI components, flows, prototypes and anything that can be designed.
+* And the most important bit: **I've had the opportunity to work and build a friendship with a mind-blowing bunch of wonderful and talented people**. Every day I've been able to learn from them, laugh, have fun and build the best real estate marketplace.
 
 I'm so lucky to have made some great friends in this adventure.
 <br>
