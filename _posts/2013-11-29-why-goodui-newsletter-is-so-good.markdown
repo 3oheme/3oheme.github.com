@@ -19,7 +19,8 @@ But first let's show the email:
 
 Why is this email working? Because...
 
-## The email feels personal
+<br>
+### The email feels personal
 
 Let's be clear: no ones likes automated emails. They are cold, impersonal and quite likely to end in the spam folder. So, what does the email do to fight against it?
 
@@ -45,8 +46,8 @@ When Jakub shares personal information two things happen:
 
 Interesting, huh?
  
-
-## It just suggest some ideas
+<br>
+### It just suggest some ideas
 
 Nowadays there are tons of blog that are using fear to engage readers. I'm thinking about titles like:
 
@@ -59,8 +60,8 @@ Nowadays there are tons of blog that are using fear to engage readers. I'm think
 
 This kind of trick works the first time, but is very easy to get fed of it — GoodUI newsletter suggest ideas in a cordial way, as a friend would do, not using fear and anxiety.
 
-
-## The email is short and well structured
+<br>
+### The email is short and well structured
 
 And last, but not least, the email structure is as follows:
 
