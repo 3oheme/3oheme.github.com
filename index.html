@@ -14,11 +14,9 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
     </div>
 
     <div class="grid-wrap">
-        <div class="grid-col bp1-col-one-half">
-            <p>Hi there! Nice to meet you. I'm Ignacio, one of those User Experience designers that also have a Computer Science BsC — that allows me to have a deeper and holistic view of the whole project I'm involved with. I really enjoy projects where continuous
+        <div class="grid-col">
+            <p>Hi there! Nice to meet you. I'm Ignacio, one of those User Experience designers with a Computer Science BsC — that allows me to have a deeper and holistic view of the whole project I'm involved with. I really enjoy projects where continuous
                 integration and delivery are at the core of the team, because that allows very quick iterations with the full cycle of release, measure and learn.</p>
-        </div>
-        <div class="grid-col bp1-col-one-half">
             <p>Currently taking some time off while looking for the next gig, I've been working for or in projects with <a href="https://www.spotahome.com/" title="Spotahome, The easiest way to find and book your mid to long-term housing">Spotahome</a>, <a title="Thoughtworks homepage" href="https://www.thoughtworks.com/">Thoughtworks</a>, The Cooperative, Unicef, eDreams,
                 United Nations, McDonalds, Cruz Roja Española or Asociación Española de Pediatría. I love dealing with frontend engineering best practices, user experience, research, usability, branding and messaging or user testing.</p>
         </div>
@@ -34,32 +32,36 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
     <h3 class="section-title">Portfolio</h3>
 
     <div class="grid-wrap">
-        <div class="grid-col bp1-col-one-third">
+        <div class="grid-col bp1-col-one-half">
             <p><a href="/portfolio#spotahome"><img src="/images/spotahome-home.png" /></a>
                 <span class="portfolio-small">Head of UX in ecommerce website, leading the User Experience department <a href="/portfolio#spotahome">Read more</a></span></p>
         </div>
-        <div class="grid-col bp1-col-one-third">
+        <div class="grid-col bp1-col-one-half">
             <p><a href="/portfolio#spotahome"><img src="/images/dreyhub-home.png" /></a>
                 <span class="portfolio-small">Kick off, research, analysis and design of a Property Management Software</span></p>
         </div>
-        <div class="grid-col bp1-col-one-third">
+    </div>
+    <div class="grid-wrap">
+        <div class="grid-col bp1-col-one-half">
             <p><a href="/portfolio#timehook"><img src="/images/timehook-home.png" /></a>
                 <span class="portfolio-small">Brand, research, User Experience and frontend development <a href="/portfolio#timehook">Read more</a></span></p>
         </div>
-    </div>
-    <div class="grid-wrap">
-        <div class="grid-col bp1-col-one-third">
+        <div class="grid-col bp1-col-one-half">
             <p><a href="/portfolio#thebighouse"><img src="/images/thebighouse.png" /></a>
                 <span class="portfolio-small">Senior consultant working in responsive and mobile-first transactional website redesign. <a href="/portfolio#thebighouse">Read more</a></span></p>
         </div>
-        <div class="grid-col bp1-col-one-third">
+    </div>
+    <div class="grid-wrap">
+        <div class="grid-col bp1-col-one-half">
             <p><a href="/portfolio#thoughtworks"><img src="/images/thoughtworks-logo.jpg" /></a>
                 <span class="portfolio-small">Senior consultant for corporate website development, responsive mobile–first retail website, branding, messaging and marketing strategy or frontend consultant. <a href="/portfolio#thoughtworks">Read more</a></span></p>
         </div>
-        <div class="grid-col bp1-col-one-third">
+        <div class="grid-col bp1-col-one-half">
             <p><a href="/portfolio#drupal"><img src="/images/unicef-home.jpg" /></a>
                 <span class="portfolio-small">More than 30 different projects from Drupal 4.7 to Drupal 7 — theming, content types, module development, ecommerce websites, customizing external themes. <a href="/portfolio#drupal">Read more</a></span></p>
         </div>
+    </div>
+    <div class="grid-wrap">
         <div class="grid-col">
             <div class="blog-archives">
                 <p>Read about all projects in the <a href="/portfolio" title="Go to portfolio page">portfolio page</a>.</p>
@@ -69,7 +71,7 @@ excerpt: Portfolio and personal homepage of Ignacio Palomo Duarte
 
     <h3 class="section-title">Latest blog entries</h3>
 
-    <div id="blog" class="grid-wrap">
+    <div id="blog" class="grid-wrap small-blog-excerpt">
         {% for post in site.posts limit: 6 %}
         <div class="grid-col bp1-col-one-half">
             <p><a href="{{ post.url }}" title="link to blog post with title: {{ post.title }}"> {{ post.title }} </a>

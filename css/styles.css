@@ -12,23 +12,24 @@
 ---------------------------------------*/
 body {
   margin: 0 auto;
-  font: 18px/18px 'Source Sans Pro', sans-serif;
-  font-weight: 300;
+  font: 18px/18px 'Merriweather', serif;
+  font-weight: 100;
   max-width: 50em;
-  color: #333;
+  color: #4a4a4a;
   background: #FCFCFC;
 }
 
 .container {
   width: 90%;
-  margin: 2em auto; }
+  margin: 24px auto; }
 
 p, li {
   margin: 0 0 24px 0;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 .home-title {
+  font-family: 'Raleway', sans-serif;
   font-weight: 100;
   font-size: 28px;
   text-align: left;
@@ -56,13 +57,13 @@ a {
        -o-transition: all 0.3s ease;
           transition: all 0.3s ease;
   color: #2f6eab;
-  box-shadow: 0 -1px 0 #75A7D8 inset;
+  box-shadow: 0 1px 0 #75A7D8;
   text-decoration: none;
 }
 
 a:hover {
   color: #14395d;
-  box-shadow: 0 -5px 0 #75A7D8 inset;
+  box-shadow: 0 5px 0 #75A7D8;
 }
 
 h1 {
@@ -89,12 +90,12 @@ header h1 {
 
 .header-sections {
     float: left;
-    margin-top: 1em;
+    margin-top: 24px;
     clear: both;
 }
 
 .header-sections a {
-    margin-right: 1em;
+    margin-right: 24px;
 }
 
 header a {
@@ -105,6 +106,7 @@ header a {
     font-weight: 900;
     color: #999;
     box-shadow: 0 0 0 white;
+    font-family: 'Raleway', sans-serif;
 }
 
 header h1 a {
@@ -123,6 +125,7 @@ h2 {
   font-weight: normal;
   line-height: 1.3em;
   margin: 1.7em 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 h3 {
@@ -130,6 +133,7 @@ h3 {
   padding: 24px 0;
   margin-bottom: 24px;
   font-size: 24px;
+  font-family: 'Raleway', sans-serif;
 }
 
 ul li {
@@ -206,6 +210,11 @@ blockquote {
   margin-top: 40px;
 }
 
+.small-blog-excerpt p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
 .profile-photo {
   float: right;
   border: 1px solid #ccc;
@@ -276,8 +285,8 @@ a.before-and-after:hover {
 .portfolio-small {
     font-size: 14px;
     display: block;
-    line-height: 24px;
-    margin-top: 1em;
+    line-height: 21px;
+    margin-top: 8px;
 }
 
 .smaller-text {
@@ -397,7 +406,7 @@ blockquote {
 }
 
 .header-line {
-  padding: 24px 0;
+  padding: 0 0 24px 0;
 }
 
 .header-sections {
@@ -458,7 +467,6 @@ blockquote {
   }
 
   .post {
-    max-width: 40em;
     margin: 80px auto 0;
     float: none;
   }
