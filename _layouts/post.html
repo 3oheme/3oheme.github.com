@@ -7,12 +7,16 @@ layout: default
     <div class="grid-wrap">
       <div class="grid-col">
         <h2 class="home-title">{{ page.title }}</h2>
+        <div class="post-creation-date">
+            <span>{{ page.date | date_to_long_string }} – {{ page.date | date: "%R" }}</span>
+        </div>
       </div>
     </div>
 
 
 <div class="grid-wrap">
     <div class="grid-col post">
+        
         
         {{ content }}
         
