@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   font: 18px/18px 'Merriweather', serif;
   font-weight: 100;
-  max-width: 50em;
+  max-width: 46em;
   color: #4a4a4a;
   background: #FCFCFC;
 }
@@ -549,7 +549,7 @@ blockquote {
 
 /* -- Breakpoint 3 (.bp3)
 ------------------------------------------------------------- */
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 46em) {
   .bp3-col-full,
   .bp3-col-set-full .grid-col {
     width: 100%; }
