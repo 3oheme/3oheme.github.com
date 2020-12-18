@@ -7,24 +7,17 @@ categories: blog
 
 ---
 
+**Update December 2020: this technique is not needed anymore.**
+
 Some mobile or touch devices apply a **300 ms delay to any touch event**, usually in order to detect zooming with double tap (there is a further detailed explanation in [Google fast buttons article](http://bit.ly/1eAtuJo)). 
 
 That delay is desirable most of the time, but when users are dealing with some specific areas like carousels, buttons or preloaded tabs, **this can be felt as unresponsive and slow**.
 
 If you are in a mobile, try following buttons:
 
-<p><button class='slowclick' style='margin-right: 1em'>Button 1</button>
-<button class='fastclick'>Button 2</button></p>
+**removed**
 
 The first button shows the normal behaviour, and the second one presents the FastClick approach. Which one do you think responds faster?
-
-<script type="text/javascript" src="/resources/fastclick_example.js" >&nbsp;</script>
-
-<style>
-.active { background: #FF9999 !important }
-.fastclick, .slowclick { padding: 1em; background: #EEE; border: 1px solid #999 }
-.fastclick:focus, .slowclick:focus { background: none; -webkit-tap-highlight-color: #EEE; }
-</style>
 
 ### When
 
@@ -39,14 +32,10 @@ The easiest way is using [dave1010](http://bit.ly/15YIIG0) [jQuery plugin versio
 2. Later, [download](http://bit.ly/15YJinb) and **include FastClick jQuery Plugin** after jQuery.
 3. And lastly, **use it**. Instead using the classic:
 
-{% highlight javascript %}
-  $('#element').click()
-{% endhighlight %}
- 
-you just need to use:
+>  $('#element').click()
 
-{% highlight javascript %}
-  $('#element').fastClick()
-{% endhighlight %}
+ you just need to use:
+
+>  $('#element').fastClick()
 
 Easy, isn't? Cheers!
