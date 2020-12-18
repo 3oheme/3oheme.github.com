@@ -7,7 +7,7 @@ categories: blog
 
 ---
 
-<p><img class="full-width-image" src="/images/hamburger-icon-menu.png" /></p>
+<p><img class="i-want-to-break-free" src="/images/hamburger-icon-menu.png" /></p>
 
 Let's face it. You've been developing your awesome app for months, filled dribble with hundreds of photoshop comps and here comes the moment to decide if we should use a hamburger icon for your navigation interaction.
 
@@ -22,7 +22,7 @@ But, after reading the whole internet, you still don't know if you should use it
 
 So here I am, helping you with the final and definitive howto guide about whether you should use the hamburger icon or not.
 
-##It depends. Do some user testing. Every scenario is different.
+## It depends. Do some user testing. Every scenario is different.
 
 It's not the same if you are designing an app or a website, if your target are teenagers or adults, or if you are Facebook or just a small and local business.
 

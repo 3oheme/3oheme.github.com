@@ -24,11 +24,11 @@ I'm so lucky to have made some great friends in this adventure.
 <p>
     <div class="full-bleed-image">
         <img
-             class="full-width-image mobile-only"
+             class="i-want-to-break-free mobile-only"
              src="/images/spotahome-life--mobile.jpg"
              alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome">
         <img
-             class="full-width-image desktop-only"
+             class="i-want-to-break-free desktop-only"
              src="/images/spotahome-life.jpg"
              alt="A collage of photos of tons of post-its, UI designs and great friends I've made at Spotahome">   
     </div>
