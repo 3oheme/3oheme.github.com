@@ -53,10 +53,8 @@ p, li {
 
 
 a {
-  -webkit-transition: all 0.3s ease;
-     -moz-transition: all 0.3s ease;
-       -o-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+  transition: color 0.3s ease;
+  transition: box-shadow 0.3s ease;
   color: #2f6eab;
   box-shadow: 0 1px 0 #75A7D8;
   text-decoration: none;
@@ -450,29 +448,24 @@ blockquote {
   }
  
   .home-title {
-  font-weight: 100;
-  font-size: 58px;
-  text-align: left;
-  margin: 125px 0 0px;
-  line-height: 1em;
+    font-weight: 100;
+    font-size: 58px;
+    text-align: left;
+    margin: 125px 0 0px;
+    line-height: 1em;
   }
 
   .home-subtitle {
-  text-transform: uppercase;
-  font-size: 18px;
-  border-bottom: none;
-  letter-spacing: 2px;
-  margin: 0;
-  padding: 20px 0 70px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: none;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 20px 0 70px;
 }
 
   .profile-photo {
-   -webkit-transform:rotate(4deg);
-    -moz-transform:rotate(4deg);
-    -ms-transform:rotate(4deg);
-     -o-transform:rotate(4deg);
-        transform:rotate(4deg);
-
+    transform:rotate(4deg);
     width: auto;
     padding: 6px;
   }
