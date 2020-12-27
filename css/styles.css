@@ -53,15 +53,13 @@ p, li {
 
 
 a {
-  transition: color 0.3s ease;
-  transition: box-shadow 0.3s ease;
+  transition: none;
   color: #2f6eab;
   box-shadow: 0 1px 0 #75A7D8;
   text-decoration: none;
 }
 
 a:hover {
-  color: #14395d;
   box-shadow: 0 5px 0 #75A7D8;
 }
 
@@ -315,16 +313,26 @@ a.before-and-after:hover {
   max-width: calc(100% + 32px);
 }
 
-@media only screen and (min-width: 865px) {
+@media only screen and (min-width: 865px) and (max-width: 1400px) {
 
   .i-want-to-break-free {
     left: 50%;
     margin-left: -45vw;
     margin-right: -45vw;
-    max-width: 100vw;
     position: relative;
     right: 50%;
     width: 90vw;
+    max-width: 90vw
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+
+  .i-want-to-break-free {
+    margin-left: -179px;
+    position: relative;
+    width: 1200px;
+    max-width: 1200px
   }
 }
 
