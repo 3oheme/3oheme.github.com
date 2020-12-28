@@ -31,3 +31,6 @@ Es cierto que estas herramientas son las que están permitiendo que todo ese con
 Sé que en este post hay mucha melancolía por aquel internet que se medía en baudios, en el que los usuarios eran los dueños del contenido, pero sigo pensando que **entre un blogpost que va perdurar en el tiempo a una Story de Instagram que desaparecerá a las 24 horas hay lugares en los que nos podemos encontrar**.
 
 Elijan ustedes.
+
+<p><img class="i-want-to-break-free" src="/images/lo-efimero.jpg" alt="Some people waiting in an airport lounge"><p>
+<span class="smaller-text"><strong>Waiting in the airport</strong> by Ignacio Palomo Duarte – <a href="https://www.flickr.com/photos/3oheme/9091805961">Flickr</a></span></p>
