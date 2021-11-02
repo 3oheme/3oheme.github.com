@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Apple y el estado del arte de la industria"
-date:   2021-10-31 21:45:00
-excerpt: "El otro día hablando con varios compañeros de la típica discusión Apple vs Android, me di cuenta de que no es que Apple ponga el listón muy alto, es que el software/hardware en pleno 2021 da puta pena."
+title:  "Apple y el camino desde el delight hasta el reliable"
+date:   2021-11-1 21:45:00
+excerpt: "El otro día hablando con varios compañeros de la típica discusión Apple vs Android, me di cuenta de que no es que Apple ponga el listón muy alto, es que el software"
 categories: blog
 
 ---
