@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Apple y el camino desde el delight hasta el reliable"
+title:  "Apple y el camino desde el reliable hasta el delight"
 date:   2021-11-1 21:45:00
 excerpt: "El otro día hablando con varios compañeros de la típica discusión Apple vs Android, me di cuenta de que no es que Apple ponga el listón muy alto, es que el software"
 categories: blog
