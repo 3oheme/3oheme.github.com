@@ -32,5 +32,5 @@ Sé que en este post hay mucha melancolía por aquel internet que se medía en b
 
 Elijan ustedes.
 
-<p><img class="i-want-to-break-free" src="/images/lo-efimero.jpg" alt="Some people waiting in an airport lounge"><p>
+<p><img class="i-want-to-break-free" src="/images/lo-efimero.jpg" alt="Some people waiting in an airport lounge">
 <span class="smaller-text"><strong>Waiting in the airport</strong> by Ignacio Palomo Duarte – <a href="https://www.flickr.com/photos/3oheme/9091805961">Flickr</a></span></p>
