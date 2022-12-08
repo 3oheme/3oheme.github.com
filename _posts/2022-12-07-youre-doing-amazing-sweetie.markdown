@@ -4,7 +4,7 @@ title:  "You're doing amazing sweetie"
 date:   2022-12-07 20:45:00
 excerpt: "Hoy voy a tratar un tema distinto, del que no se suele hablar pero que creo que es útil y necesario para todos los product managers, básicamente porque nos ayuda a quitarnos"
 categories: blog
-metaimage: "/images/summer-time-social.jpg"
+metaimage: /images/summer-time-social.jpg
 ---
 
 Hoy voy a tratar un tema distinto, del que no se suele hablar pero que creo que es útil y necesario para todos los product managers, básicamente porque nos ayuda a quitarnos cierto peso de los hombros, sobre todo si eres como yo y tienes un síndrome del impostor del tamaño de varios campos de fútbol.
