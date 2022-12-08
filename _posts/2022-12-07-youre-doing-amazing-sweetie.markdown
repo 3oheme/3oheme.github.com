@@ -23,7 +23,7 @@ Lo expreso de nuevo, esta vez con otras palabras: <strong>Puedes hacer tu trabaj
 
 Por enumerar algunos:
 - <strong>Competidores mucho más fuertes</strong>, con más inversión, equipo o recursos. Por muy bien que hayas priorizado e implementado tus últimas features, si tu competidor tiene un producto mucho más refinado que el tuyo y ataca a tu mismo target... lo tienes complicado. Tan sencillo como acordarse de aquellas veces que Google o Apple se han cargado a startups simplemente copiando su producto.
-- <strong>Problemas de comunicación con otros departamentos u objetivos no alineados</strong> – porque sería la primera vez que existen dos departamentos o equipos con KPIs y objetivos enfrentados.
+- <strong>Problemas de comunicación con otros departamentos u objetivos no alineados</strong> – porque no sería la primera vez que existen dos departamentos o equipos con KPIs u objetivos enfrentados.
 - <strong>Dificultades organizativas en la empresa</strong> externas a tu influencia.
 - <strong>Cambios en las circunstancias geopolíticas, económicas o incluso sanitarias</strong>. Guerra entre Rusia y Ucrania, pandemia global...
 - <strong>Cambios legislativos</strong>. Por poner algunos ejemplos, la entrada de normativas sobre VTC, nuevas leyes sobre Riders, actualizaciones en las normativas de alquiler de pisos vacacionales... 
