@@ -11,7 +11,7 @@ Hoy voy a tratar un tema distinto, del que no se suele hablar pero que creo que 
 
 Empezaré por el principio.
 
-En la actualidad tenemos a nuestra disposición información infinitos libros y artículos sobre frameworks de priorización, técnicas de discovery, ejercicios de research, casos de éxito de optimización de funnel. Existen podcasts sobre el proceso de diseño en Apple, sobre comunicación entre equipos y team topologies, nos sabemos todos los canvas necesarios para evaluar nuestro modelo de negocio, metodologías de roadmapping, integramos un dual track de investigación con sprints para poder entregar valor cuanto antes.
+En la actualidad tenemos a nuestra disposición infinitos libros y artículos sobre frameworks de priorización, técnicas de discovery, ejercicios de research, casos de éxito de optimización de funnel. Existen podcasts sobre el proceso de diseño en Apple, sobre comunicación entre equipos y team topologies, nos sabemos todos los canvas necesarios para evaluar nuestro modelo de negocio, metodologías de roadmapping, integramos un dual track de investigación con sprints para poder entregar valor cuanto antes.
 
 Y con esta caja de herramientas tan grande, podría parecer que el trabajo de Product Manager es fácil – más que fácil, infalible. Para cada problema o reto hay un framework, modelo mental o herramienta que podemos utilizar. Tan sencillo como utilizar cada técnica en su momento para tener impacto y proporcionar business value.
 
