@@ -17,4 +17,4 @@ Gracias a todos los compañeros que hacen que los lunes sean menos lunes y las r
 
 Make it happen y por muchos años más ❤️
 
-<p><img class="i-want-to-break-free" src="/images/genially-team.jpg" alt="El equipo de genially al completo"></p>
+<p><img class="i-want-to-break-free" src="/images/genially-team.jpeg" alt="El equipo de genially al completo"></p>
