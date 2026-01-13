@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 años en genially"
-date:   2026-01-12 23:08:00
+date:   2026-01-12 23:08:34
 excerpt: "Dicen que en el mundo startup los años cuentan como años de perro, así que técnicamente llevo 35 años en Genially. Bromas aparte, hoy cumplo 5 años en esta"
 categories: blog
 metaimage: /images/genially-team.jpg
