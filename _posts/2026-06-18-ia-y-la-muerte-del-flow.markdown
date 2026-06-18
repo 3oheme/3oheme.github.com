@@ -14,7 +14,6 @@ Y salí con una sensación rara, contradictoria, que llevo varios días intentan
 
 Vamos por partes.
 
----
 
 ### Lo bueno (que fue mucho)
 
@@ -29,7 +28,7 @@ Empiezo por aquí, porque sería injusto no hacerlo.
 
 Y un aprendizaje que no esperaba reforzar tanto: **la conversación con el equipo sigue siendo fundamental**. Si le das espacio a esa conversación y pones las herramientas para recoger feedback —un FigJam, lo que sea— en un momento aclaras dudas que la IA por sí sola no te iba a resolver. La IA no sustituye al equipo. Lo acelera.
 
----
+
 
 ### Lo que no me gustó
 
@@ -66,7 +65,7 @@ Y vuelta a empezar. El loop se repite hasta que sacas algún outcome.
 
 **El problema no es la espera. El problema es que la espera te expulsa de la zona, y volver cuesta muchísimo más que esperar.**
 
----
+
 
 ### Y aun así, hay que ser honestos
 
@@ -76,7 +75,6 @@ Y no hablo de la técnica del rubberduck de toda la vida. Hablo de que un LLM es
 
 Eso, reconozcámoslo, es muy valioso.
 
----
 
 ### Lo bueno que está por venir
 
