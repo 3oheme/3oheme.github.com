@@ -2,15 +2,15 @@
 layout: post
 title:  "IA y la muerte del flow"
 date:   2026-06-18 17:21:00
-excerpt: "La semana pasada hicimos en Genially un hackathon distinto a todos los que he hecho en mi vida. La premisa era sencilla y ambiciosa a partes iguales: repensar nuestros flujos de trabajo completos poniendo la IA en el centro."
+excerpt: "Esta semana hemos hecho en Genially un hackathon distinto a todos los que he hecho en mi vida. La premisa era sencilla y ambiciosa a partes iguales: repensar nuestros flujos de trabajo completos poniendo la IA en el centro."
 categories: blog
 ---
 
-La semana pasada hicimos en Genially un hackathon distinto a todos los que he hecho en mi vida. La premisa era sencilla y ambiciosa a partes iguales: repensar nuestros flujos de trabajo completos —los de producto y los de desarrollo— poniendo la IA en el centro. IA first.
+Esta semana hemos hecho en Genially un hackathon distinto a todos los que he hecho en mi vida. La premisa era sencilla y ambiciosa a partes iguales: repensar nuestros flujos de trabajo completos —los de producto y los de desarrollo— poniendo la IA en el centro. IA first.
 
 Y salí con una sensación rara, contradictoria, que llevo varios días intentando ordenar.
 
-**Hicimos muchísimo más que en cualquier otro hackathon. Y aun así, la energía, el flow, esa sensación de estar en la zona, fue de lo peor que recuerdo.**
+**Hicimos muchísimo más que en cualquier otro hackathon. Y aun así, la energía, el flow, esa sensación de estar en la zona, me ha dejado un sabor agridulce.**
 
 Vamos por partes.
 
@@ -22,19 +22,18 @@ Empiezo por aquí, porque sería injusto no hacerlo.
 **Es increíble el valor que puedes entregar en un lapso de tiempo tan corto.** Y no lo digo como titular vacío, lo digo con ejemplos concretos:
 
 - **Prototipado.** Bien usado, un prototipo facilita una barbaridad la conversación entre actores que normalmente hablan idiomas distintos: desarrollo, stakeholders, QA. En cuestión de minutos tienes algo funcional, en una URL, con cinco o seis pantallas. Eso antes eran días.
-- **Historias de usuario.** Las escribe y las refina a la velocidad del rayo, y comete pocos errores.
+- **Historias de usuario.** Las escribe y las refina a la velocidad del rayo, y he de reconocer que comete pocos errores.
 - **Implementación de código.** El mayor impacto de todos, evidentemente. No hay que ser un genio para darse cuenta de que, en buenas manos (ojo a este "en buenas manos"), puede hacer que la implementación alcance ese mítico 10x del que tanto se habla en linkedin.
 - **Integraciones.** Esto me sorprendió: a día de hoy la interoperabilidad entre sistemas está bastante madura. Puedes pedirle a Claude que lea una conversación de Slack, consulte después unas métricas en Amplitude y genere una historia de usuario en ClickUp siguiendo un formato estandarizado que vive como ficheros markdown en un repo de Github. Todo encadenado. Funciona.
 
-Y un aprendizaje que no esperaba reforzar tanto: **la conversación con el equipo sigue siendo fundamental**. Si le das espacio a esa conversación y pones las herramientas para recoger feedback —un FigJam, lo que sea— en un momento aclaras dudas que la IA por sí sola no te iba a resolver. La IA no sustituye al equipo. Lo acelera.
-
+Y un aprendizaje que he podido confirmar: **la conversación con el equipo sigue siendo fundamental**. Si le das espacio a esa conversación (un hackatón presencial es el lugar perfecto para ellio) y facilitas las herramientas para recoger feedback – un figjam, lo que sea – en un momento aclaras dudas que la IA por sí sola no te iba a resolver. La IA no sustituye al equipo. Lo acelera.
 
 
 ### Lo que no me gustó
 
 Aquí hay dos cosas, y una me preocupa más de lo que pensaba.
 
-**La IA es terriblemente complaciente.** Por muy específico que seas en el prompt, por mucho que le exijas ser ortodoxo con las mejores prácticas de producto, siempre te entrega un *default*. Una opción recomendada, servida en bandeja, para que te resulte facilísimo darle a continuar al siguiente paso. Gastas más tokens y, sobre todo, no te obliga a parar a pensar. Y parar a pensar es, muchas veces, el trabajo.
+**La IA es terriblemente complaciente.** Por muy específico que seas en el prompt, por mucho que le exijas ser ortodoxo con las mejores prácticas de producto, siempre te entrega un *default*. Una opción recomendada, servida en bandeja, para que te resulte facilísimo darle a continuar al siguiente paso. Gastas más tokens y, sobre todo, no te obliga a parar a pensar. Y parar a pensar es, muchas veces, el trabajo. Aún así, existen herramientas para limitarlo (aquí somos fans de la skill [grill-me](https://github.com/mattpocock/skills/blob/733d312884b3878a9a9cff693c5886943753a741/skills/productivity/grill-me/SKILL.md)) y soy optimista en que se puede mejorar mucho.
 
 Y luego, hablando ya en concreto de Claude, **la interoperabilidad entre sus propias herramientas es deficiente**. Es paradójico que conecte tan bien con sistemas externos y tan mal consigo mismo:
 
@@ -44,9 +43,9 @@ Y luego, hablando ya en concreto de Claude, **la interoperabilidad entre sus pro
 
 Cada herramienta es una isla. Y tú haciendo de barca.
 
----
 
-### Y ahora hablemos del flow
+
+### Ahora hablemos del flow
 
 Esta es la parte que me importa de verdad.
 
