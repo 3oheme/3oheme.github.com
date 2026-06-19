@@ -8,12 +8,9 @@ categories: blog
 
 Esta semana hemos hecho en Genially un hackathon distinto a todos los que he hecho en mi vida. La premisa era sencilla y ambiciosa a partes iguales: repensar nuestros flujos de trabajo completos —los de producto y los de desarrollo— poniendo la IA en el centro. IA first.
 
-Y salí con una sensación rara, contradictoria, que llevo varios días intentando ordenar.
-
-**Hicimos muchísimo más que en cualquier otro hackathon. Y aun así, la energía, el flow, esa sensación de estar en la zona, me ha dejado un sabor agridulce.**
+Y salí con una sensación rara, contradictoria, que llevo varios días intentando ordenar. Porque, aunque **hayamos generado muchísimo más valor que en cualquier otro hackathon, me he quedado con un sabor agridulce.**
 
 Vamos por partes.
-
 
 ### Lo bueno (que fue mucho)
 
@@ -26,7 +23,7 @@ Empiezo por aquí, porque sería injusto no hacerlo.
 - **Implementación de código.** El mayor impacto de todos, evidentemente. No hay que ser un genio para darse cuenta de que, en buenas manos (ojo a este "en buenas manos"), puede hacer que la implementación alcance ese mítico 10x del que tanto se habla en linkedin.
 - **Integraciones.** Esto me sorprendió: a día de hoy la interoperabilidad entre sistemas está bastante madura. Puedes pedirle a Claude que lea una conversación de Slack, consulte después unas métricas en Amplitude y genere una historia de usuario en ClickUp siguiendo un formato estandarizado que vive como ficheros markdown en un repo de Github. Todo encadenado. Funciona.
 
-Y un aprendizaje que he podido confirmar: **la conversación con el equipo sigue siendo fundamental**. Si le das espacio a esa conversación (un hackatón presencial es el lugar perfecto para ellio) y facilitas las herramientas para recoger feedback – un figjam, lo que sea – en un momento aclaras dudas que la IA por sí sola no te iba a resolver. La IA no sustituye al equipo. Lo acelera.
+Y un aprendizaje que he podido confirmar: **la conversación con el equipo sigue siendo fundamental**. Si le das espacio a esa conversación (un hackatón presencial es el lugar perfecto para ello) y facilitas las herramientas para recoger feedback – un figjam, lo que sea – en un momento aclaras dudas que la IA por sí sola no te iba a resolver. La IA no sustituye al equipo. Lo acelera.
 
 
 ### Lo que no me gustó
