@@ -86,3 +86,13 @@ Ese día volveremos a estar en la zona. Mientras tanto, toca aprender a bailar c
 Mil gracias a Genially por montar este hackathon. Creo de verdad que, a la velocidad a la que aparecen nuevas herramientas y flujos de trabajo de IA, es de esas cosas que toda empresa debería repetir cada seis meses.
 
 <p><img class="i-want-to-break-free" src="/images/hackaton-ia-genially.jpg" alt="Hackathon de IA en Genially"></p>
+
+---
+
+Si quieres contarme tu opinión o seguir la conversación, puedes hacerlo en este post de Bluesky:
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:jpdqvqijzdqgz6m355mlg2nw/app.bsky.feed.post/3morskxfzu224" data-bluesky-cid="bafyreifgw76q62u5js44xqw6jjlmhmyqrzvppax3yylqvu5zw3fwreox7u"><p lang="es">Se habla mucho del 10x de la IA en el código, y se habla poco de que rompe el flow.
+
+El problema no es esperar la respuesta del LLM. Es que mientras esperas, abres Slack, miras el correo... y cuando vuelve, has perdido todo el contexto.
+
+palomoduarte.com/blog/2026/06...</p>&mdash; <a href="https://bsky.app/profile/did:plc:jpdqvqijzdqgz6m355mlg2nw?ref_src=embed">Ignacio Palomo Duarte (@palomoduarte.com)</a> <a href="https://bsky.app/profile/did:plc:jpdqvqijzdqgz6m355mlg2nw/post/3morskxfzu224?ref_src=embed">21 Jun 2026</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
