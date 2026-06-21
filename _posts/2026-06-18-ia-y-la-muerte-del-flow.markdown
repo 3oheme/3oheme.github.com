@@ -85,7 +85,8 @@ Ese día volveremos a estar en la zona. Mientras tanto, toca aprender a bailar c
 
 Mil gracias a Genially por montar este hackathon. Creo de verdad que, a la velocidad a la que aparecen nuevas herramientas y flujos de trabajo de IA, es de esas cosas que toda empresa debería repetir cada seis meses.
 
-<p><img class="i-want-to-break-free" src="/images/hackaton-ia-genially.jpg" alt="Hackathon de IA en Genially"></p>
+<p><img class="i-want-to-break-free" src="/images/hackaton-ia-genially.jpg" alt="Hackathon de IA en Genially">
+<span class="smaller-text">Por cierto, si vais por Córdoba no os perdáis el fantástico café de <a href="https://c-coffee.es/" alt="website de C Coffee en Córdoba">C Coffee</a>, café de especialidad excelentemente preparado en todas sus variantes. El espresso y el cold brew son para comprarte quince.</span></p>
 
 ---
 
