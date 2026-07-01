@@ -83,7 +83,8 @@ No escribo esto para demonizar nada. Yo soy el primero que tira de la palanca ve
 
 Pero creo que merece la pena ser conscientes de qué nos está pasando por dentro cuando trabajamos así. Saber que parte de las ganas de mandar "un prompt más" no viene de la tarea, sino de un circuito que llevamos cableado desde mucho antes de que existieran los LLMs. Reconocer la tragaperras no hace que deje de funcionar, pero al menos te deja decidir cuándo estás trabajando y cuándo simplemente estás tirando de la palanca a ver qué cae.
 
-<p><img class="i-want-to-break-free" src="/images/decks-tokyo-beach.jpg" alt="Decks Tokyo Beach"></p>
+<p><img class="i-want-to-break-free" src="/images/decks-tokyo-beach.jpg" alt="Decks Tokyo Beach">
+<span class="smaller-text"><strong>Pachinko fever</strong> — Decks Tokyo Beach by Ignacio Palomo Duarte</span></p>
 
 ---
 
