@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Random reward: la tragaperras que vive en cada prompt"
-date:   2026-07-01 07:10:41
+date:   2026-07-01 07:10:41 +0200
 excerpt: "¿A que no sabes que, gracias a que los chatbots son no deterministas, son también más adictivos? Suena a contradicción. Y sin embargo es justo al revés."
 categories: blog
 metaimage: /images/decks-tokyo-beach.jpg
