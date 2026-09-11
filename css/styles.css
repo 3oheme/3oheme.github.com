@@ -57,6 +57,14 @@ hr {
   padding: 20px 0 70px;
 }
 
+.home-subtitle + .home-availability {
+  margin: -50px 0 60px;
+  padding: 12px 16px;
+  background: #f0f2f2;
+  border-left: 4px solid #2f6eab;
+  font-size: 16px;
+}
+
 
 a {
   transition: none;
