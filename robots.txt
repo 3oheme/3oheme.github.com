@@ -1,2 +1,4 @@
 User-agent: *
-Sitemap: http://palomoduarte.com/sitemap.xml
+Allow: /
+
+Sitemap: https://palomoduarte.com/sitemap.xml

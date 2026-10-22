@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "You're doing amazing sweetie"
+lang: es
 date:   2022-12-07 20:45:00
 excerpt: "Hoy voy a tratar un tema distinto, del que no se suele hablar pero que creo que es útil y necesario para todos los product managers, básicamente porque nos ayuda a quitarnos"
 categories: blog

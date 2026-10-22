@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Empezar una carrera IT en el Reino Unido"
+lang: es
 date:   2013-04-07 10:15:00
 excerpt: "Versión corta: En UK puedes comenzar una carrera IT si tienes un buen inglés y buena formación y 2) Los trabajos de IT son"
 categories: blog
