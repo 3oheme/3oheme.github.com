@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# Ignacio Palomo Duarte
+
+> {{ site.description }}
+
+Personal website of Ignacio Palomo Duarte, a Product Manager with a Computer Science and UX background, based in Cádiz, Spain. Formerly Senior Product Manager at Genially (2021–2026), Head of UX at Spotahome and consultant at Thoughtworks. Currently open to new Product Manager roles (remote or hybrid).
+
+Contact: ignacio@palomoduarte.com
+
+## Main pages
+
+- [Home]({{ site.url }}/): who I am and what I'm looking for
+- [Portfolio]({{ site.url }}/portfolio/): selected work in product management, UX and frontend
+- [Resume (PDF)]({{ site.url }}/resume_ignacio_palomo_duarte.pdf)
+- [Blog]({{ site.url }}/blog/): writing about product, UX and technology (English and Spanish)
+
+## Blog posts
+{% for post in site.posts %}
+- [{{ post.title }}]({{ site.url }}{{ post.url }}) ({{ post.date | date: "%Y-%m-%d" }}{% if post.lang == "es" %}, Spanish{% endif %})
+{%- endfor %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "IA y la muerte del flow"
+lang: es
 date:   2026-06-18 17:21:00
 excerpt: "Esta semana hemos hecho en Genially un hackathon distinto a todos los que he hecho en mi vida. La premisa era sencilla y ambiciosa a partes iguales: repensar nuestros flujos de trabajo completos poniendo la IA en el centro."
 categories: blog
