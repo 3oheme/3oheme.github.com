@@ -90,5 +90,5 @@ Pero creo que merece la pena ser conscientes de qué nos está pasando por dentr
 ---
 
 Notas al pie de blog post para dármelas de guay:
-- **Fuentes:** los esquemas de refuerzo y la razón variable vienen del trabajo de B. F. Skinner sobre condicionamiento operante ([Science and Human Behavior](https://www.bfskinner.org/behavioral-science/science-human-behavior/), 1953). Lo de la dopamina como señal de predicción de recompensa es de los experimentos de Wolfram Schultz con primates: las neuronas dopaminérgicas se disparan más ante recompensas inesperadas que ante las predecibles. Si os pica la curiosidad, hay literatura de sobra sobre el *reward prediction error*.
+- **Fuentes:** los esquemas de refuerzo y la razón variable vienen del trabajo de B. F. Skinner sobre condicionamiento operante ([Science and Human Behavior](https://www.bfskinner.org/product/science-and-human-behavior/), 1953). Lo de la dopamina como señal de predicción de recompensa es de los experimentos de Wolfram Schultz con primates: las neuronas dopaminérgicas se disparan más ante recompensas inesperadas que ante las predecibles. Si os pica la curiosidad, hay literatura de sobra sobre el *reward prediction error*.
 - Sabiendo un poco motivación intrínseca / extrínseca, tipos de recompensa, sistema 1 y 2 de Daniel Kahneman y em modelo de BJFog ya tienes el master en psicología.
