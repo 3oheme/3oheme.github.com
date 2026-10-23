@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Clips - I"
+lang: es
+date: 2010-08-27 12:00:00
+excerpt: "Oh, así me gusta, bien explicado:"
+categories: blog
+archived_from: 3oheme.com
+---
+Oh, así me gusta, bien explicado:
+
+The preferred mechanisms in CLIPS for ordering the execution of rules are salience and modules. Salience allows one to explicitly specify that one rule should be executed before another rule. Modules allow one to explicitly specify that all of the rules in a particular group (module) should be executed before all of the rules in a different group.
+
+---
+
+*Publicado originalmente en mi antiguo blog, 3oheme.com, y recuperado de [archive.org](https://web.archive.org/web/2010/http://www.3oheme.com/blog/clips-i).*
