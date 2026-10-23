@@ -4,7 +4,7 @@ name: Fetch 3oheme.com archive
 on:
   push:
     branches: [claude/repo-access-review-t0jznp]
-    paths: [".github/workflows/fetch-3oheme-archive.yml", ".github/scripts/fetch_3oheme_archive.py"]
+    paths: [".github/workflows/fetch-3oheme-archive.yml", ".github/scripts/fetch_3oheme_archive.py", "_archive_3oheme/extra-list.txt"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,6 +20,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git branch --set-upstream-to=origin/${GITHUB_REF_NAME}
       - run: python3 .github/scripts/fetch_3oheme_archive.py
+        env:
+          LIST_FILE: _archive_3oheme/extra-list.txt
       - name: Commit archive
         if: always()
         run: |

@@ -48,7 +48,28 @@ def key(url):
     return host + path + ("?" + p.query if p.query else "")
 
 
+def fetch_list(listfile):
+    """Download an explicit list of "timestamp url" captures into extra/."""
+    os.makedirs(f"{OUT}/extra", exist_ok=True)
+    rows = [l.split() for l in open(listfile) if l.strip()]
+    for n, (ts, orig) in enumerate(rows, 1):
+        name = ts + "_" + re.sub(r"[^A-Za-z0-9._-]+", "_", key(orig))[:160] + ".html"
+        dest = f"{OUT}/extra/{name}"
+        if os.path.exists(dest):
+            continue
+        print(f"[{n}/{len(rows)}] {ts} {orig}", flush=True)
+        body = get(f"https://web.archive.org/web/{ts}id_/{orig}")
+        if body is not None:
+            open(dest, "wb").write(body)
+        time.sleep(1)
+        if n % 25 == 0:
+            checkpoint(f"Add extra 3oheme.com captures ({n}/{len(rows)})")
+    checkpoint("Add extra 3oheme.com captures (done)")
+
+
 def main():
+    if os.environ.get("LIST_FILE"):
+        return fetch_list(os.environ["LIST_FILE"])
     os.makedirs(f"{OUT}/html", exist_ok=True)
     os.makedirs(f"{OUT}/files", exist_ok=True)
     raw = get(CDX)
