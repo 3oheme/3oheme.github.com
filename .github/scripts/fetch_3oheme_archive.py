@@ -65,8 +65,10 @@ def main():
         ts, orig, status, mime = parts[:4]
         k = key(orig)
         is_html = mime.startswith("text/html")
-        is_file = os.environ.get("WITH_FILES") == "1" and (mime.startswith("image/") or mime == "application/pdf")
+        is_file = mime.startswith("image/") or mime == "application/pdf"
         if not (is_html or is_file):
+            continue
+        if ts >= "2016":  # the domain expired; later captures are someone else's spam site
             continue
         # keep the latest capture taken before 2016 (the blog era); else the earliest one
         prev = best.get(k)
