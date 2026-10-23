@@ -14,11 +14,15 @@ jobs:
     timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
-      - run: python3 .github/scripts/fetch_3oheme_archive.py
-      - name: Commit archive
+      - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git branch --set-upstream-to=origin/${GITHUB_REF_NAME}
+      - run: python3 .github/scripts/fetch_3oheme_archive.py
+      - name: Commit archive
+        if: always()
+        run: |
           git add _archive_3oheme
           git commit -m "Add raw Wayback Machine copies of 3oheme.com" || echo "nothing to commit"
-          git push
+          git pull -q --rebase && git push
