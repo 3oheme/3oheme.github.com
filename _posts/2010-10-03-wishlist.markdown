@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Wishlist"
+lang: es
+date: 2010-10-03 12:00:00
+excerpt: "Ya que ninguna wishlist me agrada (la de amazon está supercargada, y tanto wishlist.com como wishlistr.com añaden publicidad a saco) me creo un post con mi wishlist y punto :-)"
+categories: blog
+archived_from: 3oheme.com
+---
+Ya que ninguna wishlist me agrada (la de [amazon](http://www.amazon.com/wishlist) está supercargada, y tanto [wishlist.com](http://wishlist.com/) como [wishlistr.com](http://www.wishlistr.com) añaden publicidad a saco) me creo un post con mi wishlist y punto :-)
+
+---
+
+## Libros sobre diseño (en general)
+
+Irene Au's (Google Head of UX) - My favorite design books. Most are books about web design, but this bag also includes some of my favorite inspirational books and elementary practical guides.
+
+---
+
+*Publicado originalmente en mi antiguo blog, 3oheme.com. archive.org solo conservó el comienzo de este post, así que el resto se ha perdido. [Ver lo que queda en archive.org](https://web.archive.org/web/2010/http://www.3oheme.com/blog/wishlist).*

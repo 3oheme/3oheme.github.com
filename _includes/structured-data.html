@@ -1,0 +1,38 @@
+{% capture person %}{
+    "@type": "Person",
+    "@id": "{{ site.url }}/#person",
+    "name": "Ignacio Palomo Duarte",
+    "url": "{{ site.url }}/",
+    "image": "{{ site.url }}/ignacio-palomo-duarte-profile-photo.png",
+    "jobTitle": "Product Manager",
+    "description": {{ site.description | jsonify }},
+    "homeLocation": { "@type": "Place", "name": "Cádiz, Spain" },
+    "email": "mailto:ignacio@palomoduarte.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/ignaciopalomo",
+      "https://bsky.app/profile/palomoduarte.com",
+      "https://github.com/3oheme",
+      "https://www.flickr.com/3oheme"
+    ]
+  }{% endcapture %}
+  <script type="application/ld+json">
+  {% if page.layout == "post" %}{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.excerpt | strip_html | strip | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "inLanguage": "{{ lang }}",
+    "url": "{{ canonical }}",
+    "mainEntityOfPage": "{{ canonical }}",
+    {% if page.metaimage %}"image": "{{ site.url }}{{ page.metaimage }}",
+    {% endif %}"author": {{ person }}
+  }{% else %}{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "palomoduarte.com",
+    "url": "{{ site.url }}/",
+    "inLanguage": "en",
+    "author": {{ person }}
+  }{% endif %}
+  </script>

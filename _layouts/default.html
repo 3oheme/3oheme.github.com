@@ -1,12 +1,14 @@
 <!doctype html>
-<!--[if lt IE 8]><html class="lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if IE 8]><html class="lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+{% assign lang = page.lang | default: "en" %}{% assign canonical = page.url | replace: "index.html", "" | prepend: site.url %}
+<!--[if lt IE 8]><html class="lt-ie9 lt-ie8" lang="{{ lang }}"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="{{ lang }}"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="{{ lang }}"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }} – palomoduarte.com</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip }}{% else %}{{ site.description }}{% endif %}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="canonical" href="{{ canonical }}">
   <meta name="google-site-verification" content="Lt3RBcZGVBUQaxfY-LkgJ1-XeI-d7vVyS70aUT7KBTg" />
 
   <link type="text/plain" rel="author" href="https://palomoduarte.com/humans.txt" />
@@ -29,8 +31,8 @@
   {% endif %}
 
   {% if page.excerpt %}
-    <meta name="twitter:description" content="{{ page.excerpt }}">
-    <meta property="og:description" content="{{ page.excerpt }}">
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip }}">
+    <meta property="og:description" content="{{ page.excerpt | strip_html | strip }}">
   {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}">
@@ -44,7 +46,11 @@
     <meta property="og:image" content="https://palomoduarte.com/website-screenshot.png">
   {% endif %}
 
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+  <meta property="og:url" content="{{ canonical }}" />
+  <meta property="og:locale" content="{% if lang == 'es' %}es_ES{% else %}en_GB{% endif %}" />
+
+  {% include structured-data.html %}
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Raleway:wght@900&display=swap" rel="stylesheet">

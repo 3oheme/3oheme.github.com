@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Lo efímero"
+lang: es
 date:   2020-12-17 10:12:00
 excerpt: "Domingo por la mañana, todos duermen todavía, así que me preparo un café de la Aeropress y me dispongo a leer"
 categories: blog

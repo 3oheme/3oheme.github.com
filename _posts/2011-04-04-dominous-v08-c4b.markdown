@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Dominous v0.8 - C4B"
+lang: es
+date: 2011-04-04 12:00:00
+excerpt: "Hoy necesito un poco de ayuda de todos los que me leéis y seguís (con mayor o menos interés :-P) las andanzas de Dominous, así que hoy toca... ¡Call for betatesters!"
+categories: blog
+archived_from: 3oheme.com
+---
+Hoy necesito un poco de ayuda de todos los que me leéis y seguís (con mayor o menos interés :-P) las andanzas de Dominous, así que hoy toca... **¡Call for betatesters!**
+
+**Lo importante**: parece ser que Dominous da algunos problemas sobre algunas distros de Linux, concretamente **Ubuntu 10.x**; he acotado el problema y creo que es asunto del sonido de pygame, así que pido a todo aquel que tenga un linux y 10 minutos libres que se descargue esta versión preparada sin sonido y me confirme que se ejecuta correctamente.
+
+Las instrucciones sobre cómo ejecutarlo, en el correspondiente README.
+
+**El enlace**: [descargar Dominous v0.8 (sin sonido)](https://web.archive.org/web/2011/http://www.3oheme.com/sites/www.3oheme.com/modules/pubdlcnt/pubdlcnt.php) - 20MB
+
+Principalmente esto me ayudará a acotar el problema y a poder atacar alguna versión específica. PD: Bajo windows va bien :-P
+
+¡Mil gracias a todos!
+
+---
+
+*Publicado originalmente en mi antiguo blog, 3oheme.com, y recuperado de [archive.org](https://web.archive.org/web/2011/http://www.3oheme.com/blog/dominous-v08-c4b).*

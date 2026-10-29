@@ -10,3 +10,8 @@ timezone: Europe/Madrid
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+defaults:
+  - scope:
+      path: "google70de5048418dc246.html"
+    values:
+      sitemap: false
